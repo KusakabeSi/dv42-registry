@@ -1,0 +1,8 @@
+inetnum:            172.22.73.0 - 172.22.73.15
+cidr:               172.22.73.0/28
+netname:            MAXIMEHL-NETWORK
+admin-c:            MAXIMEHL-DN42
+tech-c:             MAXIMEHL-DN42
+mnt-by:             MAXIMEHL-MNT
+status:             ASSIGNED
+source:             DN42

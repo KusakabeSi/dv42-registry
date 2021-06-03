@@ -1,0 +1,4 @@
+route:              172.22.73.0/28
+origin:             AS4242421561
+mnt-by:             MAXIMEHL-MNT
+source:             DN42

@@ -1,0 +1,5 @@
+route6:             fd59:8614:e4d::/48
+origin:             AS4242421561
+max-length:         48
+mnt-by:             MAXIMEHL-MNT
+source:             DN42

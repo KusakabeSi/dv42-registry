@@ -1,0 +1,10 @@
+inet6num:           fd59:8614:0e4d:0000:0000:0000:0000:0000 - fd59:8614:0e4d:ffff:ffff:ffff:ffff:ffff
+cidr:               fd59:8614:e4d::/48
+netname:            MAXIMEHL-NET
+descr:              Network of MAXIMEHL
+country:            FR
+admin-c:            MAXIMEHL-DN42
+tech-c:             MAXIMEHL-DN42
+mnt-by:             MAXIMEHL-MNT
+status:             ASSIGNED
+source:             DN42
