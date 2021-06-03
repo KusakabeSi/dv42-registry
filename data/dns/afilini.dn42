@@ -1,0 +1,9 @@
+domain:             afilini.dn42
+admin-c:            AFILINI-DN42
+tech-c:             AFILINI-DN42
+mnt-by:             AFILINI-MNT
+nserver:            ns1.afilini.dn42 172.22.125.40
+nserver:            ns1.afilini.dn42 fdad:baa4:7742:40::1
+ds-rdata:           18809 8 1 38F17B0F1AFDB79CB1B313C659623D8DAAE284E2
+ds-rdata:           18809 8 2 A34E36EC34DC7FA2DD0E82518CE4C8B2783F7003D431C99C73F5CF0A60A21A97
+source:             DN42
