@@ -1,0 +1,13 @@
+inetnum:            172.21.21.0 - 172.21.21.63
+cidr:               172.21.21.0/26
+netname:            galdb_net
+remarks:            Peer with me at sadan9@gmail.com
+descr:              Peer with me at sadan9@gmail.com
+country:            CN
+admin-c:            fci001-DN42
+tech-c:             fci001-DN42
+mnt-by:             fci001-MNT
+nserver:            ns1.fci001.dn42
+nserver:            ns2.fci001.dn42
+status:             ASSIGNED
+source:             DN42
