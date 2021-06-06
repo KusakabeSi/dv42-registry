@@ -1,23 +1,17 @@
 aut-num:            AS4242420308
-as-name:            Clement VILLISEK
-descr:              AS for Clement VILLISEK personal use.
+as-name:            VILLISEK
+descr:              New Clement VILLISEK's personal use network.
 remarks:            +----------------------------------+
-                    |I am open to new peers, especially|
-                    |if you're a newcomer or you don't |
-                    |have too many peers.              |
+                    |This network is currently being   |
+                    |rebuilt.                          |
                     |                                  |
-                    |Main BGP server located in France |
-                    |(TDF Datacenter, Aix-Marseille)   |
-                    |                                  |
-                    |To ask for peering, contact me.   |
-                    |(see tech-c/admin-c VILLISEK-DN42)|
-                    +----------------------------------+
-                    |Current peers:                    |
-                    |                                  |
-                    +- KIOUBIT AS4242423914            |
-                    +- SUNNET AS4242423088             |
-                    |                                  |
-                    |New peers coming soon.            |
+                    |The goal is to build a new multi- |
+                    |nodes network. This enables me to |
+                    |learn intra and extra-network     |
+                    |routing protocols.                |
+                    |Peering is for now restricted to  |
+                    |other European nodes. I'll provide|
+                    |international nodes ASAP.         |
                     +----------------------------------+
 admin-c:            VILLISEK-DN42
 tech-c:             VILLISEK-DN42
