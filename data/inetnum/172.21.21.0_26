@@ -6,7 +6,7 @@ descr:              Peer with me at sadan9@gmail.com
 country:            CN
 admin-c:            FCI001-DN42
 tech-c:             FCI001-DN42
-mnt-by:             fci001-DN42
+mnt-by:             fci001-MNT
 nserver:            ns1.fci001.dn42
 nserver:            ns2.fci001.dn42
 status:             ASSIGNED
