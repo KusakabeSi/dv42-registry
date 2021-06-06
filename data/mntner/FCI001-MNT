@@ -1,0 +1,6 @@
+mntner:             FCI001-MNT
+admin-c:            FCI001-DN42
+tech-c:             FCI001-DN42
+mnt-by:             FCI001-MNT
+source:             DN42
+auth:               ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzAhJsQXWsfEHKp+EW57IGHNO3YdJBhrlYT3W+11u7DZ0fPh2c2xarRhzaYRTU0rxbVUOBbdWl1yzl/9WVa+2yXXRPBBohNZojKetWkiXX5K1j3cOVh98MApZ4IU68P5XRdSvUc1dQOXEmvhiRurUBIS7m8dIpAcWYUbWdZgBrUcr6gZycBNeUuN4GFPsOSw29xErNRh6nT7Z6+YRF4VgHOjOHIAZF1JgIWQXtQHlS3uGQGPxlQ+8uEJFJmcZQ10voWgxaqB/dESP4YwhvvKoCqRhz3QPOOXP5nR7eZojmNro/+8Zu01vuRl0akuRqG9+RJ+Dpv+opuSN9Va1z4lnNw== 
