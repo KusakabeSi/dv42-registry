@@ -1,0 +1,4 @@
+route:              172.21.86.0/27
+origin:             AS4242422186
+mnt-by:             XIAOIT-MNT
+source:             DN42

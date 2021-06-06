@@ -1,0 +1,9 @@
+inet6num:           fd40:0964:0086:0000:0000:0000:0000:0000 - fd40:0964:0086:ffff:ffff:ffff:ffff:ffff
+cidr:               fd40:964:86::/48
+netname:            XIAOIT-NET
+country:            CN
+admin-c:            XIAOIT-DN42
+tech-c:             XIAOIT-DN42
+mnt-by:             XIAOIT-MNT
+status:             ASSIGNED
+source:             DN42

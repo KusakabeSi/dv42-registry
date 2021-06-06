@@ -1,0 +1,6 @@
+mntner:             XIAOIT-MNT
+admin-c:            XIAOIT-DN42
+tech-c:             XIAOIT-DN42
+mnt-by:             XIAOIT-MNT
+source:             DN42
+auth:               ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFf+XHIXRTckM7+eOKL1K/0W784vQJiPcpqKgBA4TXyM
