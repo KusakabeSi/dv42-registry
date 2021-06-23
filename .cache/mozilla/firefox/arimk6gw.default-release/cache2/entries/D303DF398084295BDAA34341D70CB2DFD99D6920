@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html lang="en-US" class="theme-gitea">
+<head data-suburl="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>New Repository -  DN42 GIT </title>
+	<link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiRE40MiBHSVQiLCJzaG9ydF9uYW1lIjoiRE40MiBHSVQiLCJzdGFydF91cmwiOiJodHRwczovL2dpdC5kbjQyLmRldi8iLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9naXQuZG40Mi5kZXYvaW1nL2xvZ28ucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInNpemVzIjoiNTEyeDUxMiJ9LHsic3JjIjoiaHR0cHM6Ly9naXQuZG40Mi5kZXYvaW1nL2xvZ28uc3ZnIiwidHlwZSI6ImltYWdlL3N2Zyt4bWwiLCJzaXplcyI6IjUxMng1MTIifV19"/>
+	<meta name="theme-color" content="#6cc644">
+	<meta name="default-theme" content="gitea" />
+	<meta name="author" content="Gitea - Git with a cup of tea" />
+	<meta name="description" content="Gitea (Git with a cup of tea) is a painless self-hosted Git service written in Go" />
+	<meta name="keywords" content="go,git,self-hosted,gitea">
+	<meta name="referrer" content="no-referrer" />
+	<meta name="_csrf" content="z_e9UfubRiST0vkL8LPB67XQZYw6MTYyNDQyMzY5MDQ3MjcxNTU5NA" />
+	
+		<meta name="_uid" content="916" />
+	
+	
+		<meta name="_context_uid" content="916" />
+	
+	
+
+	<script>
+		window.config = {
+			AppVer: '1.14.1',
+			AppSubUrl: '',
+			StaticUrlPrefix: '',
+			UseServiceWorker:  true ,
+			csrf: 'z_e9UfubRiST0vkL8LPB67XQZYw6MTYyNDQyMzY5MDQ3MjcxNTU5NA',
+			HighlightJS: false,
+			SimpleMDE: false,
+			Tribute: false,
+			NotificationSettings: {
+				MinTimeout:  10000 ,
+				TimeoutStep:   10000 ,
+				MaxTimeout:  60000 ,
+				EventSourceUpdateTime:  10000 ,
+			},
+			EnableTimetracking: true,
+			PageIsProjects: false,
+			
+		};
+	</script>
+	<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+	<link rel="alternate icon" href="/img/favicon.png" type="image/png">
+
+	<link rel="stylesheet" href="/css/index.css?v=0c014ed3f83cba3010ffa07c87a71067">
+	<noscript>
+		<style>
+			.dropdown:hover > .menu { display: block; }
+			.ui.secondary.menu .dropdown.item > .menu { margin-top: 0; }
+		</style>
+	</noscript>
+	<style class="list-search-style"></style>
+
+	<meta property="og:title" content="DN42 GIT">
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/img/logo.png" />
+	<meta property="og:url" content="https://git.dn42.dev/" />
+	<meta property="og:description" content="Gitea (Git with a cup of tea) is a painless self-hosted Git service written in Go">
+
+<meta property="og:site_name" content="DN42 GIT" />
+
+	
+
+
+</head>
+<body>
+	
+
+	<div class="full height">
+		<noscript>This website works better with JavaScript.</noscript>
+
+		
+
+		
+			<div class="ui top secondary stackable main menu following bar light">
+				<div class="ui container" id="navbar">
+	<div class="item brand" style="justify-content: space-between;">
+		<a href="/">
+			<img class="ui mini image" with="30" height="30" src="/img/logo.svg">
+		</a>
+		<div class="ui basic icon button mobile-only" id="navbar-expand-toggle">
+			<i class="sidebar icon"></i>
+		</div>
+	</div>
+
+	
+		<a class="item " href="/">Dashboard</a>
+		
+		<a class="item " href="/issues">Issues</a>
+		
+		
+		<a class="item " href="/pulls">Pull Requests</a>
+		
+		
+		<a class="item " href="/milestones">Milestones</a>
+		
+		<a class="item " href="/explore/repos">Explore</a>
+	
+
+	
+
+	
+
+
+	
+		<div class="right stackable menu">
+			
+			<a class="active-stopwatch-trigger item ui label hidden" href="/%25!s%28%3cnil%3e%29/issues/%25!d%28%3cnil%3e%29">
+				<span class="text">
+					<span class="fitted item">
+						<svg viewBox="0 0 16 16" class="svg octicon-stopwatch" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.75.75A.75.75 0 016.5 0h3a.75.75 0 010 1.5h-.75v1l-.001.041a6.718 6.718 0 013.464 1.435l.007-.006.75-.75a.75.75 0 111.06 1.06l-.75.75-.006.007a6.75 6.75 0 11-10.548 0L2.72 5.03l-.75-.75a.75.75 0 011.06-1.06l.75.75.007.006A6.718 6.718 0 017.25 2.541a.756.756 0 010-.041v-1H6.5a.75.75 0 01-.75-.75zM8 14.5A5.25 5.25 0 108 4a5.25 5.25 0 000 10.5zm.389-6.7l1.33-1.33a.75.75 0 111.061 1.06L9.45 8.861A1.502 1.502 0 018 10.75a1.5 1.5 0 11.389-2.95z"/></svg>
+						<span class="red" style="position:absolute; right:-0.6em; top:-0.6em;"><svg viewBox="0 0 16 16" class="svg octicon-dot-fill" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg></span>
+					</span>
+					<span class="sr-mobile-only">Active Time Tracker</span>
+				</span>
+			</a>
+			<div class="ui popup very wide">
+				<div class="df ac">
+					<a class="stopwatch-link df ac" href="/%25!s%28%3cnil%3e%29/issues/%25!d%28%3cnil%3e%29">
+						<svg viewBox="0 0 16 16" class="svg octicon-issue-opened" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+						<span class="stopwatch-issue">#</span>
+						<span class="ui label blue stopwatch-time my-0 mx-4" data-seconds="">
+							
+						</span>
+					</a>
+					<form class="stopwatch-commit" method="POST" action="/%25!s%28%3cnil%3e%29/issues/%25!d%28%3cnil%3e%29/times/stopwatch/toggle">
+						<input type="hidden" name="_csrf" value="z_e9UfubRiST0vkL8LPB67XQZYw6MTYyNDQyMzY5MDQ3MjcxNTU5NA">
+						<button
+							class="ui button mini compact basic icon fitted poping up"
+							data-content="Stop Timer"
+							data-position="top right" data-variation="small inverted"
+						><svg viewBox="0 0 16 16" class="svg octicon-square-fill" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.75 4A1.75 1.75 0 004 5.75v4.5c0 .966.784 1.75 1.75 1.75h4.5A1.75 1.75 0 0012 10.25v-4.5A1.75 1.75 0 0010.25 4h-4.5z"/></svg></button>
+					</form>
+					<form class="stopwatch-cancel" method="POST" action="/%25!s%28%3cnil%3e%29/issues/%25!d%28%3cnil%3e%29/times/stopwatch/cancel">
+						<input type="hidden" name="_csrf" value="z_e9UfubRiST0vkL8LPB67XQZYw6MTYyNDQyMzY5MDQ3MjcxNTU5NA">
+						<button
+							class="ui button mini compact basic icon fitted poping up"
+							data-content="Discard"
+							data-position="top right" data-variation="small inverted"
+						><svg viewBox="0 0 16 16" class="svg octicon-trashcan" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"/></svg></button>
+					</form>
+				</div>
+			</div>
+
+			<a href="/notifications" class="item poping up" data-content='Notifications' data-variation="tiny inverted">
+				<span class="text">
+					<span class="fitted"><svg viewBox="0 0 16 16" class="svg octicon-bell" width="16" height="16" aria-hidden="true"><path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"/><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"/></svg></span>
+					<span class="sr-mobile-only">Notifications</span>
+					
+					
+					<span class="ui red label hidden notification_count">
+						0
+					</span>
+				</span>
+			</a>
+
+			<div class="ui dropdown jump item poping up" data-content="Create…" data-variation="tiny inverted">
+				<span class="text">
+					<span class="fitted"><svg viewBox="0 0 16 16" class="svg octicon-plus" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"/></svg></span>
+					<span class="sr-mobile-only">Create…</span>
+					<span class="fitted not-mobile"><svg viewBox="0 0 16 16" class="svg octicon-triangle-down" width="16" height="16" aria-hidden="true"><path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"/></svg></span>
+				</span>
+				<div class="menu">
+					<a class="item" href="/repo/create">
+						<span class="fitted"><svg viewBox="0 0 16 16" class="svg octicon-plus" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"/></svg></span> New Repository
+					</a>
+					
+						<a class="item" href="/repo/migrate">
+							<span class="fitted"><svg viewBox="0 0 16 16" class="svg octicon-repo-push" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.5A2.5 2.5 0 013.5 0h8.75a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0V1.5h-8a1 1 0 00-1 1v6.708A2.492 2.492 0 013.5 9h3.25a.75.75 0 010 1.5H3.5a1 1 0 100 2h5.75a.75.75 0 010 1.5H3.5A2.5 2.5 0 011 11.5v-9zm13.23 7.79a.75.75 0 001.06-1.06l-2.505-2.505a.75.75 0 00-1.06 0L9.22 9.229a.75.75 0 001.06 1.061l1.225-1.224v6.184a.75.75 0 001.5 0V9.066l1.224 1.224z"/></svg></span> New Migration
+						</a>
+					
+					
+					<a class="item" href="/org/create">
+						<span class="fitted"><svg viewBox="0 0 16 16" class="svg octicon-organization" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 14.25c0 .138.112.25.25.25H4v-1.25a.75.75 0 01.75-.75h2.5a.75.75 0 01.75.75v1.25h2.25a.25.25 0 00.25-.25V1.75a.25.25 0 00-.25-.25h-8.5a.25.25 0 00-.25.25v12.5zM1.75 16A1.75 1.75 0 010 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 00.25-.25V8.285a.25.25 0 00-.111-.208l-1.055-.703a.75.75 0 11.832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0114.25 16h-3.5a.75.75 0 01-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 01-.75-.75V14h-1v1.25a.75.75 0 01-.75.75h-3zM3 3.75A.75.75 0 013.75 3h.5a.75.75 0 010 1.5h-.5A.75.75 0 013 3.75zM3.75 6a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM3 9.75A.75.75 0 013.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 013 9.75zM7.75 9a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM7 6.75A.75.75 0 017.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 017 6.75zM7.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5z"/></svg></span> New Organization
+					</a>
+					
+				</div>
+			</div>
+
+			<div class="ui dropdown jump item poping up" tabindex="-1" data-content="Profile and Settings…" data-variation="tiny inverted">
+				<span class="text">
+					<img class="ui avatar image tiny" src="/avatar/d177f256b783b9f0c9e21c20aa4c2235" title="hannia_hdz" width="24" height="24"/>
+					<span class="sr-only">Profile and Settings…</span>
+					<span class="mobile-only">hannia_hdz</span>
+					<span class="fitted not-mobile" tabindex="-1"><svg viewBox="0 0 16 16" class="svg octicon-triangle-down" width="16" height="16" aria-hidden="true"><path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"/></svg></span>
+				</span>
+				<div class="menu user-menu" tabindex="-1">
+					<div class="ui header">
+						Signed in as <strong>hannia_hdz</strong>
+					</div>
+
+					<div class="divider"></div>
+					<a class="item" href="/hannia_hdz">
+						<svg viewBox="0 0 16 16" class="svg octicon-person" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.5 5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm.061 3.073a4 4 0 10-5.123 0 6.004 6.004 0 00-3.431 5.142.75.75 0 001.498.07 4.5 4.5 0 018.99 0 .75.75 0 101.498-.07 6.005 6.005 0 00-3.432-5.142z"/></svg>
+						Profile
+					</a>
+					<a class="item" href="/hannia_hdz?tab=stars">
+						<svg viewBox="0 0 16 16" class="svg octicon-star" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/></svg>
+						Starred
+					</a>
+					<a class=" item" href="/user/settings">
+						<svg viewBox="0 0 16 16" class="svg octicon-tools" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.433 2.304A4.494 4.494 0 003.5 6c0 1.598.832 3.002 2.09 3.802.518.328.929.923.902 1.64v.008l-.164 3.337a.75.75 0 11-1.498-.073l.163-3.33c.002-.085-.05-.216-.207-.316A5.996 5.996 0 012 6a5.994 5.994 0 012.567-4.92 1.482 1.482 0 011.673-.04c.462.296.76.827.76 1.423v2.82c0 .082.041.16.11.206l.75.51a.25.25 0 00.28 0l.75-.51A.25.25 0 009 5.282V2.463c0-.596.298-1.127.76-1.423a1.482 1.482 0 011.673.04A5.994 5.994 0 0114 6a5.996 5.996 0 01-2.786 5.068c-.157.1-.209.23-.207.315l.163 3.33a.75.75 0 11-1.498.074l-.164-3.345c-.027-.717.384-1.312.902-1.64A4.496 4.496 0 0012.5 6a4.494 4.494 0 00-1.933-3.696c-.024.017-.067.067-.067.16v2.818a1.75 1.75 0 01-.767 1.448l-.75.51a1.75 1.75 0 01-1.966 0l-.75-.51A1.75 1.75 0 015.5 5.282V2.463c0-.092-.043-.142-.067-.159zm.01-.005z"/></svg>
+						Settings
+					</a>
+					<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io">
+						<svg viewBox="0 0 16 16" class="svg octicon-question" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zM6.92 6.085c.081-.16.19-.299.34-.398.145-.097.371-.187.74-.187.28 0 .553.087.738.225A.613.613 0 019 6.25c0 .177-.04.264-.077.318a.956.956 0 01-.277.245c-.076.051-.158.1-.258.161l-.007.004a7.728 7.728 0 00-.313.195 2.416 2.416 0 00-.692.661.75.75 0 001.248.832.956.956 0 01.276-.245 6.3 6.3 0 01.26-.16l.006-.004c.093-.057.204-.123.313-.195.222-.149.487-.355.692-.662.214-.32.329-.702.329-1.15 0-.76-.36-1.348-.863-1.725A2.76 2.76 0 008 4c-.631 0-1.155.16-1.572.438-.413.276-.68.638-.849.977a.75.75 0 101.342.67z"/></svg>
+						Help
+					</a>
+					
+
+					<div class="divider"></div>
+					<a class="item link-action" href data-url="/user/logout" data-redirect="/">
+						<svg viewBox="0 0 16 16" class="svg octicon-sign-out" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"/></svg>
+						Sign Out
+					</a>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+			</div>
+		
+
+
+<div class="page-content repository new repo">
+	<div class="ui middle very relaxed page grid">
+		<div class="column">
+			<form class="ui form" action="/repo/create" method="post">
+				<input type="hidden" name="_csrf" value="z_e9UfubRiST0vkL8LPB67XQZYw6MTYyNDQyMzY5MDQ3MjcxNTU5NA">
+				<h3 class="ui top attached header">
+					New Repository
+				</h3>
+				<div class="ui attached segment">
+					
+
+
+
+
+					<p class="ui center">A repository contains all project files, including revision history.  Already have it elsewhere? <a href="/repo/migrate">Migrate repository.</a></p>
+
+					
+					<div class="inline required field ">
+						<label>Owner</label>
+						<div class="ui selection owner dropdown">
+							<input type="hidden" id="uid" name="uid" value="916" required>
+							<span class="text truncated-item-container" title="hannia_hdz">
+								<img class="ui avatar image mini" src="/avatar/d177f256b783b9f0c9e21c20aa4c2235" title="hannia_hdz" width="28" height="28"/>
+								<span class="truncated-item-name">hannia_hdz</span>
+							</span>
+							<svg viewBox="0 0 16 16" class="dropdown icon svg octicon-triangle-down" width="14" height="14" aria-hidden="true"><path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"/></svg>
+							<div class="menu">
+								<div class="item truncated-item-container" data-value="916" title="hannia_hdz">
+									<img class="ui avatar image mini" src="/avatar/d177f256b783b9f0c9e21c20aa4c2235" title="hannia_hdz" width="28" height="28"/>
+									<span class="truncated-item-name">hannia_hdz</span>
+								</div>
+								
+							</div>
+						</div>
+						<span class="help">Some organizations may not show up in the dropdown due to a maximum repository count limit.</span>
+					</div>
+
+					<div class="inline required field ">
+						<label for="repo_name">Repository Name</label>
+						<input id="repo_name" name="repo_name" value="" autofocus required>
+						<span class="help">Good repository names use short, memorable and unique keywords.</span>
+					</div>
+					<div class="inline field">
+						<label>Visibility</label>
+						<div class="ui checkbox">
+							
+								<input name="private" type="checkbox" >
+								<label>Make Repository Private</label>
+							
+						</div>
+						<span class="help">Only the owner or the organization members if they have rights, will be able to see it.</span>
+					</div>
+					<div class="inline field ">
+						<label for="description">Description</label>
+						<textarea id="description" name="description" placeholder="Enter short description (optional)"></textarea>
+					</div>
+					<div class="inline field">
+						<label>Template</label>
+						<div id="repo_template_search" class="ui search normal selection dropdown">
+							<input type="hidden" id="repo_template" name="repo_template" value="">
+							<div class="default text">Select a template.</div>
+							<div class="menu">
+							</div>
+						</div>
+					</div>
+
+					<div id="template_units" style="display: none;">
+						<div class="inline field">
+							<label>Template Items</label>
+							<div class="ui checkbox">
+								<input class="hidden" name="git_content" type="checkbox" tabindex="0" >
+								<label>Git Content (Default Branch)</label>
+							</div>
+							<div class="ui checkbox poping up" data-content="You are currently unable to modify or remove git hooks once added. Select this only if you trust the template repository.">
+								<input class="hidden" name="git_hooks" type="checkbox" tabindex="0" >
+								<label>Git Hooks</label>
+							</div>
+						</div>
+						<div class="inline field">
+							<label></label>
+							<div class="ui checkbox">
+								<input class="hidden" name="webhooks" type="checkbox" tabindex="0" >
+								<label>Webhooks</label>
+							</div>
+							<div class="ui checkbox">
+								<input class="hidden" name="topics" type="checkbox" tabindex="0" >
+								<label>Topics</label>
+							</div>
+						</div>
+						<div class="inline field">
+							<label></label>
+							<div class="ui checkbox">
+								<input class="hidden" name="avatar" type="checkbox" tabindex="0" >
+								<label>Avatar</label>
+							</div>
+							<div class="ui checkbox">
+								<input class="hidden" name="labels" type="checkbox" tabindex="0" >
+								<label>Issue Labels</label>
+							</div>
+						</div>
+					</div>
+
+					<div id="non_template">
+						<div class="inline field">
+							<label>Issue Labels</label>
+							<div class="ui search normal selection dropdown">
+								<input type="hidden" name="issue_labels" value="">
+								<div class="default text">Select an issue label set.</div>
+								<div class="menu">
+									<div class="item" data-value="">Select an issue label set.</div>
+									
+										<div class="item" data-value="Default">Default<br/><i>(bug, duplicate, enhancement, help wanted, invalid, question, wontfix)</i></div>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="ui divider"></div>
+
+						<div class="inline field">
+							<label>.gitignore</label>
+							<div class="ui multiple search normal selection dropdown">
+								<input type="hidden" name="gitignores" value="">
+								<div class="default text">Select .gitignore templates.</div>
+								<div class="menu">
+									
+										<div class="item" data-value="Actionscript">Actionscript</div>
+									
+										<div class="item" data-value="Ada">Ada</div>
+									
+										<div class="item" data-value="Agda">Agda</div>
+									
+										<div class="item" data-value="Android">Android</div>
+									
+										<div class="item" data-value="Anjuta">Anjuta</div>
+									
+										<div class="item" data-value="Ansible">Ansible</div>
+									
+										<div class="item" data-value="AppEngine">AppEngine</div>
+									
+										<div class="item" data-value="AppceleratorTitanium">AppceleratorTitanium</div>
+									
+										<div class="item" data-value="ArchLinuxPackages">ArchLinuxPackages</div>
+									
+										<div class="item" data-value="Archives">Archives</div>
+									
+										<div class="item" data-value="AtmelStudio">AtmelStudio</div>
+									
+										<div class="item" data-value="Autotools">Autotools</div>
+									
+										<div class="item" data-value="Backup">Backup</div>
+									
+										<div class="item" data-value="Bazaar">Bazaar</div>
+									
+										<div class="item" data-value="Bazel">Bazel</div>
+									
+										<div class="item" data-value="Bitrix">Bitrix</div>
+									
+										<div class="item" data-value="BricxCC">BricxCC</div>
+									
+										<div class="item" data-value="C">C</div>
+									
+										<div class="item" data-value="C&#43;&#43;">C&#43;&#43;</div>
+									
+										<div class="item" data-value="CFWheels">CFWheels</div>
+									
+										<div class="item" data-value="CMake">CMake</div>
+									
+										<div class="item" data-value="CUDA">CUDA</div>
+									
+										<div class="item" data-value="CVS">CVS</div>
+									
+										<div class="item" data-value="CakePHP">CakePHP</div>
+									
+										<div class="item" data-value="Calabash">Calabash</div>
+									
+										<div class="item" data-value="ChefCookbook">ChefCookbook</div>
+									
+										<div class="item" data-value="Clojure">Clojure</div>
+									
+										<div class="item" data-value="Cloud9">Cloud9</div>
+									
+										<div class="item" data-value="CodeIgniter">CodeIgniter</div>
+									
+										<div class="item" data-value="CodeKit">CodeKit</div>
+									
+										<div class="item" data-value="CodeSniffer">CodeSniffer</div>
+									
+										<div class="item" data-value="CommonLisp">CommonLisp</div>
+									
+										<div class="item" data-value="Composer">Composer</div>
+									
+										<div class="item" data-value="Concrete5">Concrete5</div>
+									
+										<div class="item" data-value="Coq">Coq</div>
+									
+										<div class="item" data-value="Cordova">Cordova</div>
+									
+										<div class="item" data-value="CraftCMS">CraftCMS</div>
+									
+										<div class="item" data-value="D">D</div>
+									
+										<div class="item" data-value="DM">DM</div>
+									
+										<div class="item" data-value="Dart">Dart</div>
+									
+										<div class="item" data-value="DartEditor">DartEditor</div>
+									
+										<div class="item" data-value="Delphi">Delphi</div>
+									
+										<div class="item" data-value="Diff">Diff</div>
+									
+										<div class="item" data-value="Dreamweaver">Dreamweaver</div>
+									
+										<div class="item" data-value="Dropbox">Dropbox</div>
+									
+										<div class="item" data-value="Drupal">Drupal</div>
+									
+										<div class="item" data-value="Drupal7">Drupal7</div>
+									
+										<div class="item" data-value="EPiServer">EPiServer</div>
+									
+										<div class="item" data-value="Eagle">Eagle</div>
+									
+										<div class="item" data-value="Eclipse">Eclipse</div>
+									
+										<div class="item" data-value="EiffelStudio">EiffelStudio</div>
+									
+										<div class="item" data-value="Elisp">Elisp</div>
+									
+										<div class="item" data-value="Elixir">Elixir</div>
+									
+										<div class="item" data-value="Elm">Elm</div>
+									
+										<div class="item" data-value="Emacs">Emacs</div>
+									
+										<div class="item" data-value="Ensime">Ensime</div>
+									
+										<div class="item" data-value="Erlang">Erlang</div>
+									
+										<div class="item" data-value="Espresso">Espresso</div>
+									
+										<div class="item" data-value="Exercism">Exercism</div>
+									
+										<div class="item" data-value="ExpressionEngine">ExpressionEngine</div>
+									
+										<div class="item" data-value="ExtJs">ExtJs</div>
+									
+										<div class="item" data-value="Fancy">Fancy</div>
+									
+										<div class="item" data-value="Finale">Finale</div>
+									
+										<div class="item" data-value="FlexBuilder">FlexBuilder</div>
+									
+										<div class="item" data-value="ForceDotCom">ForceDotCom</div>
+									
+										<div class="item" data-value="Fortran">Fortran</div>
+									
+										<div class="item" data-value="FuelPHP">FuelPHP</div>
+									
+										<div class="item" data-value="GNOMEShellExtension">GNOMEShellExtension</div>
+									
+										<div class="item" data-value="GPG">GPG</div>
+									
+										<div class="item" data-value="GWT">GWT</div>
+									
+										<div class="item" data-value="Gcov">Gcov</div>
+									
+										<div class="item" data-value="GitBook">GitBook</div>
+									
+										<div class="item" data-value="Go">Go</div>
+									
+										<div class="item" data-value="Godot">Godot</div>
+									
+										<div class="item" data-value="Gradle">Gradle</div>
+									
+										<div class="item" data-value="Grails">Grails</div>
+									
+										<div class="item" data-value="Haskell">Haskell</div>
+									
+										<div class="item" data-value="Hugo">Hugo</div>
+									
+										<div class="item" data-value="IAR_EWARM">IAR_EWARM</div>
+									
+										<div class="item" data-value="IGORPro">IGORPro</div>
+									
+										<div class="item" data-value="Idris">Idris</div>
+									
+										<div class="item" data-value="Images">Images</div>
+									
+										<div class="item" data-value="InforCMS">InforCMS</div>
+									
+										<div class="item" data-value="JBoss">JBoss</div>
+									
+										<div class="item" data-value="JBoss4">JBoss4</div>
+									
+										<div class="item" data-value="JBoss6">JBoss6</div>
+									
+										<div class="item" data-value="JDeveloper">JDeveloper</div>
+									
+										<div class="item" data-value="JENKINS_HOME">JENKINS_HOME</div>
+									
+										<div class="item" data-value="JEnv">JEnv</div>
+									
+										<div class="item" data-value="Java">Java</div>
+									
+										<div class="item" data-value="Jekyll">Jekyll</div>
+									
+										<div class="item" data-value="JetBrains">JetBrains</div>
+									
+										<div class="item" data-value="Jigsaw">Jigsaw</div>
+									
+										<div class="item" data-value="Joomla">Joomla</div>
+									
+										<div class="item" data-value="Julia">Julia</div>
+									
+										<div class="item" data-value="JupyterNotebooks">JupyterNotebooks</div>
+									
+										<div class="item" data-value="KDevelop4">KDevelop4</div>
+									
+										<div class="item" data-value="Kate">Kate</div>
+									
+										<div class="item" data-value="Kentico">Kentico</div>
+									
+										<div class="item" data-value="KiCad">KiCad</div>
+									
+										<div class="item" data-value="Kohana">Kohana</div>
+									
+										<div class="item" data-value="Kotlin">Kotlin</div>
+									
+										<div class="item" data-value="LabVIEW">LabVIEW</div>
+									
+										<div class="item" data-value="Laravel">Laravel</div>
+									
+										<div class="item" data-value="Lazarus">Lazarus</div>
+									
+										<div class="item" data-value="Leiningen">Leiningen</div>
+									
+										<div class="item" data-value="LemonStand">LemonStand</div>
+									
+										<div class="item" data-value="LibreOffice">LibreOffice</div>
+									
+										<div class="item" data-value="Lilypond">Lilypond</div>
+									
+										<div class="item" data-value="Linux">Linux</div>
+									
+										<div class="item" data-value="Lithium">Lithium</div>
+									
+										<div class="item" data-value="Logtalk">Logtalk</div>
+									
+										<div class="item" data-value="Lua">Lua</div>
+									
+										<div class="item" data-value="LyX">LyX</div>
+									
+										<div class="item" data-value="MATLAB">MATLAB</div>
+									
+										<div class="item" data-value="Magento">Magento</div>
+									
+										<div class="item" data-value="Magento1">Magento1</div>
+									
+										<div class="item" data-value="Magento2">Magento2</div>
+									
+										<div class="item" data-value="Maven">Maven</div>
+									
+										<div class="item" data-value="Mercurial">Mercurial</div>
+									
+										<div class="item" data-value="Mercury">Mercury</div>
+									
+										<div class="item" data-value="MetaProgrammingSystem">MetaProgrammingSystem</div>
+									
+										<div class="item" data-value="Metals">Metals</div>
+									
+										<div class="item" data-value="Meteor">Meteor</div>
+									
+										<div class="item" data-value="MicrosoftOffice">MicrosoftOffice</div>
+									
+										<div class="item" data-value="ModelSim">ModelSim</div>
+									
+										<div class="item" data-value="Momentics">Momentics</div>
+									
+										<div class="item" data-value="MonoDevelop">MonoDevelop</div>
+									
+										<div class="item" data-value="NWjs">NWjs</div>
+									
+										<div class="item" data-value="Nanoc">Nanoc</div>
+									
+										<div class="item" data-value="NetBeans">NetBeans</div>
+									
+										<div class="item" data-value="Nikola">Nikola</div>
+									
+										<div class="item" data-value="Nim">Nim</div>
+									
+										<div class="item" data-value="Ninja">Ninja</div>
+									
+										<div class="item" data-value="Node">Node</div>
+									
+										<div class="item" data-value="NotepadPP">NotepadPP</div>
+									
+										<div class="item" data-value="OCaml">OCaml</div>
+									
+										<div class="item" data-value="Objective-C">Objective-C</div>
+									
+										<div class="item" data-value="Octave">Octave</div>
+									
+										<div class="item" data-value="Opa">Opa</div>
+									
+										<div class="item" data-value="OpenCart">OpenCart</div>
+									
+										<div class="item" data-value="OpenSSL">OpenSSL</div>
+									
+										<div class="item" data-value="OracleForms">OracleForms</div>
+									
+										<div class="item" data-value="Otto">Otto</div>
+									
+										<div class="item" data-value="PSoCCreator">PSoCCreator</div>
+									
+										<div class="item" data-value="Packer">Packer</div>
+									
+										<div class="item" data-value="Patch">Patch</div>
+									
+										<div class="item" data-value="Perl">Perl</div>
+									
+										<div class="item" data-value="Perl6">Perl6</div>
+									
+										<div class="item" data-value="Phalcon">Phalcon</div>
+									
+										<div class="item" data-value="Phoenix">Phoenix</div>
+									
+										<div class="item" data-value="Pimcore">Pimcore</div>
+									
+										<div class="item" data-value="PlayFramework">PlayFramework</div>
+									
+										<div class="item" data-value="Plone">Plone</div>
+									
+										<div class="item" data-value="Prestashop">Prestashop</div>
+									
+										<div class="item" data-value="Processing">Processing</div>
+									
+										<div class="item" data-value="PuTTY">PuTTY</div>
+									
+										<div class="item" data-value="Puppet">Puppet</div>
+									
+										<div class="item" data-value="PureScript">PureScript</div>
+									
+										<div class="item" data-value="Python">Python</div>
+									
+										<div class="item" data-value="Qooxdoo">Qooxdoo</div>
+									
+										<div class="item" data-value="Qt">Qt</div>
+									
+										<div class="item" data-value="R">R</div>
+									
+										<div class="item" data-value="ROS">ROS</div>
+									
+										<div class="item" data-value="Racket">Racket</div>
+									
+										<div class="item" data-value="Rails">Rails</div>
+									
+										<div class="item" data-value="Raku">Raku</div>
+									
+										<div class="item" data-value="Red">Red</div>
+									
+										<div class="item" data-value="Redcar">Redcar</div>
+									
+										<div class="item" data-value="Redis">Redis</div>
+									
+										<div class="item" data-value="RhodesRhomobile">RhodesRhomobile</div>
+									
+										<div class="item" data-value="Ruby">Ruby</div>
+									
+										<div class="item" data-value="Rust">Rust</div>
+									
+										<div class="item" data-value="SAM">SAM</div>
+									
+										<div class="item" data-value="SBT">SBT</div>
+									
+										<div class="item" data-value="SCons">SCons</div>
+									
+										<div class="item" data-value="SVN">SVN</div>
+									
+										<div class="item" data-value="Sass">Sass</div>
+									
+										<div class="item" data-value="Scala">Scala</div>
+									
+										<div class="item" data-value="Scheme">Scheme</div>
+									
+										<div class="item" data-value="Scrivener">Scrivener</div>
+									
+										<div class="item" data-value="Sdcc">Sdcc</div>
+									
+										<div class="item" data-value="SeamGen">SeamGen</div>
+									
+										<div class="item" data-value="SketchUp">SketchUp</div>
+									
+										<div class="item" data-value="SlickEdit">SlickEdit</div>
+									
+										<div class="item" data-value="Smalltalk">Smalltalk</div>
+									
+										<div class="item" data-value="Snap">Snap</div>
+									
+										<div class="item" data-value="Splunk">Splunk</div>
+									
+										<div class="item" data-value="Stata">Stata</div>
+									
+										<div class="item" data-value="Stella">Stella</div>
+									
+										<div class="item" data-value="SublimeText">SublimeText</div>
+									
+										<div class="item" data-value="SugarCRM">SugarCRM</div>
+									
+										<div class="item" data-value="Swift">Swift</div>
+									
+										<div class="item" data-value="Symfony">Symfony</div>
+									
+										<div class="item" data-value="SymphonyCMS">SymphonyCMS</div>
+									
+										<div class="item" data-value="SynopsysVCS">SynopsysVCS</div>
+									
+										<div class="item" data-value="Tags">Tags</div>
+									
+										<div class="item" data-value="TeX">TeX</div>
+									
+										<div class="item" data-value="Terraform">Terraform</div>
+									
+										<div class="item" data-value="TextMate">TextMate</div>
+									
+										<div class="item" data-value="Textpattern">Textpattern</div>
+									
+										<div class="item" data-value="ThinkPHP">ThinkPHP</div>
+									
+										<div class="item" data-value="TortoiseGit">TortoiseGit</div>
+									
+										<div class="item" data-value="TurboGears2">TurboGears2</div>
+									
+										<div class="item" data-value="Typo3">Typo3</div>
+									
+										<div class="item" data-value="Umbraco">Umbraco</div>
+									
+										<div class="item" data-value="Unity">Unity</div>
+									
+										<div class="item" data-value="UnrealEngine">UnrealEngine</div>
+									
+										<div class="item" data-value="VVVV">VVVV</div>
+									
+										<div class="item" data-value="Vagrant">Vagrant</div>
+									
+										<div class="item" data-value="Vim">Vim</div>
+									
+										<div class="item" data-value="VirtualEnv">VirtualEnv</div>
+									
+										<div class="item" data-value="Virtuoso">Virtuoso</div>
+									
+										<div class="item" data-value="VisualStudio">VisualStudio</div>
+									
+										<div class="item" data-value="VisualStudioCode">VisualStudioCode</div>
+									
+										<div class="item" data-value="Vue">Vue</div>
+									
+										<div class="item" data-value="Waf">Waf</div>
+									
+										<div class="item" data-value="WebMethods">WebMethods</div>
+									
+										<div class="item" data-value="Windows">Windows</div>
+									
+										<div class="item" data-value="WordPress">WordPress</div>
+									
+										<div class="item" data-value="Xcode">Xcode</div>
+									
+										<div class="item" data-value="Xilinx">Xilinx</div>
+									
+										<div class="item" data-value="XilinxISE">XilinxISE</div>
+									
+										<div class="item" data-value="Xojo">Xojo</div>
+									
+										<div class="item" data-value="Yeoman">Yeoman</div>
+									
+										<div class="item" data-value="Yii">Yii</div>
+									
+										<div class="item" data-value="ZendFramework">ZendFramework</div>
+									
+										<div class="item" data-value="Zephir">Zephir</div>
+									
+										<div class="item" data-value="esp-idf">esp-idf</div>
+									
+										<div class="item" data-value="macOS">macOS</div>
+									
+								</div>
+							</div>
+							<span class="help">Choose which files not to track from a list of templates for common languages. Typical artifacts generated by each language&#39;s build tools are included on .gitignore by default.</span>
+						</div>
+						<div class="inline field">
+							<label>License</label>
+							<div class="ui search selection dropdown">
+								<input type="hidden" name="license" value="">
+								<div class="default text">Select a license file.</div>
+								<div class="menu">
+									<div class="item" data-value="">Select a license file.</div>
+									
+										<div class="item" data-value="0BSD">0BSD</div>
+									
+										<div class="item" data-value="389-exception">389-exception</div>
+									
+										<div class="item" data-value="AAL">AAL</div>
+									
+										<div class="item" data-value="ADSL">ADSL</div>
+									
+										<div class="item" data-value="AFL-1.1">AFL-1.1</div>
+									
+										<div class="item" data-value="AFL-1.2">AFL-1.2</div>
+									
+										<div class="item" data-value="AFL-2.0">AFL-2.0</div>
+									
+										<div class="item" data-value="AFL-2.1">AFL-2.1</div>
+									
+										<div class="item" data-value="AFL-3.0">AFL-3.0</div>
+									
+										<div class="item" data-value="AGPL-1.0">AGPL-1.0</div>
+									
+										<div class="item" data-value="AGPL-1.0-only">AGPL-1.0-only</div>
+									
+										<div class="item" data-value="AGPL-1.0-or-later">AGPL-1.0-or-later</div>
+									
+										<div class="item" data-value="AGPL-3.0-only">AGPL-3.0-only</div>
+									
+										<div class="item" data-value="AGPL-3.0-or-later">AGPL-3.0-or-later</div>
+									
+										<div class="item" data-value="AMDPLPA">AMDPLPA</div>
+									
+										<div class="item" data-value="AML">AML</div>
+									
+										<div class="item" data-value="AMPAS">AMPAS</div>
+									
+										<div class="item" data-value="ANTLR-PD">ANTLR-PD</div>
+									
+										<div class="item" data-value="ANTLR-PD-fallback">ANTLR-PD-fallback</div>
+									
+										<div class="item" data-value="APAFML">APAFML</div>
+									
+										<div class="item" data-value="APL-1.0">APL-1.0</div>
+									
+										<div class="item" data-value="APSL-1.0">APSL-1.0</div>
+									
+										<div class="item" data-value="APSL-1.1">APSL-1.1</div>
+									
+										<div class="item" data-value="APSL-1.2">APSL-1.2</div>
+									
+										<div class="item" data-value="APSL-2.0">APSL-2.0</div>
+									
+										<div class="item" data-value="Abstyles">Abstyles</div>
+									
+										<div class="item" data-value="Adobe-2006">Adobe-2006</div>
+									
+										<div class="item" data-value="Adobe-Glyph">Adobe-Glyph</div>
+									
+										<div class="item" data-value="Afmparse">Afmparse</div>
+									
+										<div class="item" data-value="Aladdin">Aladdin</div>
+									
+										<div class="item" data-value="Apache-1.0">Apache-1.0</div>
+									
+										<div class="item" data-value="Apache-1.1">Apache-1.1</div>
+									
+										<div class="item" data-value="Apache-2.0">Apache-2.0</div>
+									
+										<div class="item" data-value="Artistic-1.0">Artistic-1.0</div>
+									
+										<div class="item" data-value="Artistic-1.0-Perl">Artistic-1.0-Perl</div>
+									
+										<div class="item" data-value="Artistic-1.0-cl8">Artistic-1.0-cl8</div>
+									
+										<div class="item" data-value="Artistic-2.0">Artistic-2.0</div>
+									
+										<div class="item" data-value="Autoconf-exception-2.0">Autoconf-exception-2.0</div>
+									
+										<div class="item" data-value="Autoconf-exception-3.0">Autoconf-exception-3.0</div>
+									
+										<div class="item" data-value="BSD-1-Clause">BSD-1-Clause</div>
+									
+										<div class="item" data-value="BSD-2-Clause">BSD-2-Clause</div>
+									
+										<div class="item" data-value="BSD-2-Clause-FreeBSD">BSD-2-Clause-FreeBSD</div>
+									
+										<div class="item" data-value="BSD-2-Clause-NetBSD">BSD-2-Clause-NetBSD</div>
+									
+										<div class="item" data-value="BSD-2-Clause-Patent">BSD-2-Clause-Patent</div>
+									
+										<div class="item" data-value="BSD-2-Clause-Views">BSD-2-Clause-Views</div>
+									
+										<div class="item" data-value="BSD-3-Clause">BSD-3-Clause</div>
+									
+										<div class="item" data-value="BSD-3-Clause-Attribution">BSD-3-Clause-Attribution</div>
+									
+										<div class="item" data-value="BSD-3-Clause-Clear">BSD-3-Clause-Clear</div>
+									
+										<div class="item" data-value="BSD-3-Clause-LBNL">BSD-3-Clause-LBNL</div>
+									
+										<div class="item" data-value="BSD-3-Clause-Modification">BSD-3-Clause-Modification</div>
+									
+										<div class="item" data-value="BSD-3-Clause-No-Nuclear-License">BSD-3-Clause-No-Nuclear-License</div>
+									
+										<div class="item" data-value="BSD-3-Clause-No-Nuclear-License-2014">BSD-3-Clause-No-Nuclear-License-2014</div>
+									
+										<div class="item" data-value="BSD-3-Clause-No-Nuclear-Warranty">BSD-3-Clause-No-Nuclear-Warranty</div>
+									
+										<div class="item" data-value="BSD-3-Clause-Open-MPI">BSD-3-Clause-Open-MPI</div>
+									
+										<div class="item" data-value="BSD-4-Clause">BSD-4-Clause</div>
+									
+										<div class="item" data-value="BSD-4-Clause-Shortened">BSD-4-Clause-Shortened</div>
+									
+										<div class="item" data-value="BSD-4-Clause-UC">BSD-4-Clause-UC</div>
+									
+										<div class="item" data-value="BSD-Protection">BSD-Protection</div>
+									
+										<div class="item" data-value="BSD-Source-Code">BSD-Source-Code</div>
+									
+										<div class="item" data-value="BSL-1.0">BSL-1.0</div>
+									
+										<div class="item" data-value="BUSL-1.1">BUSL-1.1</div>
+									
+										<div class="item" data-value="Bahyph">Bahyph</div>
+									
+										<div class="item" data-value="Barr">Barr</div>
+									
+										<div class="item" data-value="Beerware">Beerware</div>
+									
+										<div class="item" data-value="Bison-exception-2.2">Bison-exception-2.2</div>
+									
+										<div class="item" data-value="BitTorrent-1.0">BitTorrent-1.0</div>
+									
+										<div class="item" data-value="BitTorrent-1.1">BitTorrent-1.1</div>
+									
+										<div class="item" data-value="BlueOak-1.0.0">BlueOak-1.0.0</div>
+									
+										<div class="item" data-value="Bootloader-exception">Bootloader-exception</div>
+									
+										<div class="item" data-value="Borceux">Borceux</div>
+									
+										<div class="item" data-value="C-UDA-1.0">C-UDA-1.0</div>
+									
+										<div class="item" data-value="CAL-1.0">CAL-1.0</div>
+									
+										<div class="item" data-value="CAL-1.0-Combined-Work-Exception">CAL-1.0-Combined-Work-Exception</div>
+									
+										<div class="item" data-value="CATOSL-1.1">CATOSL-1.1</div>
+									
+										<div class="item" data-value="CC-BY-1.0">CC-BY-1.0</div>
+									
+										<div class="item" data-value="CC-BY-2.0">CC-BY-2.0</div>
+									
+										<div class="item" data-value="CC-BY-3.0">CC-BY-3.0</div>
+									
+										<div class="item" data-value="CC-BY-3.0-AT">CC-BY-3.0-AT</div>
+									
+										<div class="item" data-value="CC-BY-3.0-US">CC-BY-3.0-US</div>
+									
+										<div class="item" data-value="CC-BY-4.0">CC-BY-4.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-1.0">CC-BY-NC-1.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-2.0">CC-BY-NC-2.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-3.0">CC-BY-NC-3.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-4.0">CC-BY-NC-4.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-ND-1.0">CC-BY-NC-ND-1.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-ND-2.0">CC-BY-NC-ND-2.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-ND-3.0">CC-BY-NC-ND-3.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-ND-3.0-IGO">CC-BY-NC-ND-3.0-IGO</div>
+									
+										<div class="item" data-value="CC-BY-NC-ND-4.0">CC-BY-NC-ND-4.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-SA-1.0">CC-BY-NC-SA-1.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-SA-2.0">CC-BY-NC-SA-2.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-SA-3.0">CC-BY-NC-SA-3.0</div>
+									
+										<div class="item" data-value="CC-BY-NC-SA-4.0">CC-BY-NC-SA-4.0</div>
+									
+										<div class="item" data-value="CC-BY-ND-1.0">CC-BY-ND-1.0</div>
+									
+										<div class="item" data-value="CC-BY-ND-2.0">CC-BY-ND-2.0</div>
+									
+										<div class="item" data-value="CC-BY-ND-3.0">CC-BY-ND-3.0</div>
+									
+										<div class="item" data-value="CC-BY-ND-4.0">CC-BY-ND-4.0</div>
+									
+										<div class="item" data-value="CC-BY-SA-1.0">CC-BY-SA-1.0</div>
+									
+										<div class="item" data-value="CC-BY-SA-2.0">CC-BY-SA-2.0</div>
+									
+										<div class="item" data-value="CC-BY-SA-2.0-UK">CC-BY-SA-2.0-UK</div>
+									
+										<div class="item" data-value="CC-BY-SA-2.1-JP">CC-BY-SA-2.1-JP</div>
+									
+										<div class="item" data-value="CC-BY-SA-3.0">CC-BY-SA-3.0</div>
+									
+										<div class="item" data-value="CC-BY-SA-3.0-AT">CC-BY-SA-3.0-AT</div>
+									
+										<div class="item" data-value="CC-BY-SA-4.0">CC-BY-SA-4.0</div>
+									
+										<div class="item" data-value="CC-PDDC">CC-PDDC</div>
+									
+										<div class="item" data-value="CC0-1.0">CC0-1.0</div>
+									
+										<div class="item" data-value="CDDL-1.0">CDDL-1.0</div>
+									
+										<div class="item" data-value="CDDL-1.1">CDDL-1.1</div>
+									
+										<div class="item" data-value="CDLA-Permissive-1.0">CDLA-Permissive-1.0</div>
+									
+										<div class="item" data-value="CDLA-Sharing-1.0">CDLA-Sharing-1.0</div>
+									
+										<div class="item" data-value="CECILL-1.0">CECILL-1.0</div>
+									
+										<div class="item" data-value="CECILL-1.1">CECILL-1.1</div>
+									
+										<div class="item" data-value="CECILL-2.0">CECILL-2.0</div>
+									
+										<div class="item" data-value="CECILL-2.1">CECILL-2.1</div>
+									
+										<div class="item" data-value="CECILL-B">CECILL-B</div>
+									
+										<div class="item" data-value="CECILL-C">CECILL-C</div>
+									
+										<div class="item" data-value="CERN-OHL-1.1">CERN-OHL-1.1</div>
+									
+										<div class="item" data-value="CERN-OHL-1.2">CERN-OHL-1.2</div>
+									
+										<div class="item" data-value="CERN-OHL-P-2.0">CERN-OHL-P-2.0</div>
+									
+										<div class="item" data-value="CERN-OHL-S-2.0">CERN-OHL-S-2.0</div>
+									
+										<div class="item" data-value="CERN-OHL-W-2.0">CERN-OHL-W-2.0</div>
+									
+										<div class="item" data-value="CLISP-exception-2.0">CLISP-exception-2.0</div>
+									
+										<div class="item" data-value="CNRI-Jython">CNRI-Jython</div>
+									
+										<div class="item" data-value="CNRI-Python">CNRI-Python</div>
+									
+										<div class="item" data-value="CNRI-Python-GPL-Compatible">CNRI-Python-GPL-Compatible</div>
+									
+										<div class="item" data-value="CPAL-1.0">CPAL-1.0</div>
+									
+										<div class="item" data-value="CPL-1.0">CPL-1.0</div>
+									
+										<div class="item" data-value="CPOL-1.02">CPOL-1.02</div>
+									
+										<div class="item" data-value="CUA-OPL-1.0">CUA-OPL-1.0</div>
+									
+										<div class="item" data-value="Caldera">Caldera</div>
+									
+										<div class="item" data-value="ClArtistic">ClArtistic</div>
+									
+										<div class="item" data-value="Classpath-exception-2.0">Classpath-exception-2.0</div>
+									
+										<div class="item" data-value="Condor-1.1">Condor-1.1</div>
+									
+										<div class="item" data-value="Crossword">Crossword</div>
+									
+										<div class="item" data-value="CrystalStacker">CrystalStacker</div>
+									
+										<div class="item" data-value="Cube">Cube</div>
+									
+										<div class="item" data-value="D-FSL-1.0">D-FSL-1.0</div>
+									
+										<div class="item" data-value="DOC">DOC</div>
+									
+										<div class="item" data-value="DRL-1.0">DRL-1.0</div>
+									
+										<div class="item" data-value="DSDP">DSDP</div>
+									
+										<div class="item" data-value="DigiRule-FOSS-exception">DigiRule-FOSS-exception</div>
+									
+										<div class="item" data-value="Dotseqn">Dotseqn</div>
+									
+										<div class="item" data-value="ECL-1.0">ECL-1.0</div>
+									
+										<div class="item" data-value="ECL-2.0">ECL-2.0</div>
+									
+										<div class="item" data-value="EFL-1.0">EFL-1.0</div>
+									
+										<div class="item" data-value="EFL-2.0">EFL-2.0</div>
+									
+										<div class="item" data-value="EPICS">EPICS</div>
+									
+										<div class="item" data-value="EPL-1.0">EPL-1.0</div>
+									
+										<div class="item" data-value="EPL-2.0">EPL-2.0</div>
+									
+										<div class="item" data-value="EUDatagrid">EUDatagrid</div>
+									
+										<div class="item" data-value="EUPL-1.0">EUPL-1.0</div>
+									
+										<div class="item" data-value="EUPL-1.1">EUPL-1.1</div>
+									
+										<div class="item" data-value="EUPL-1.2">EUPL-1.2</div>
+									
+										<div class="item" data-value="Entessa">Entessa</div>
+									
+										<div class="item" data-value="ErlPL-1.1">ErlPL-1.1</div>
+									
+										<div class="item" data-value="Eurosym">Eurosym</div>
+									
+										<div class="item" data-value="FLTK-exception">FLTK-exception</div>
+									
+										<div class="item" data-value="FSFAP">FSFAP</div>
+									
+										<div class="item" data-value="FSFUL">FSFUL</div>
+									
+										<div class="item" data-value="FSFULLR">FSFULLR</div>
+									
+										<div class="item" data-value="FTL">FTL</div>
+									
+										<div class="item" data-value="Fair">Fair</div>
+									
+										<div class="item" data-value="Fawkes-Runtime-exception">Fawkes-Runtime-exception</div>
+									
+										<div class="item" data-value="Font-exception-2.0">Font-exception-2.0</div>
+									
+										<div class="item" data-value="Frameworx-1.0">Frameworx-1.0</div>
+									
+										<div class="item" data-value="FreeBSD-DOC">FreeBSD-DOC</div>
+									
+										<div class="item" data-value="FreeImage">FreeImage</div>
+									
+										<div class="item" data-value="GCC-exception-2.0">GCC-exception-2.0</div>
+									
+										<div class="item" data-value="GCC-exception-3.1">GCC-exception-3.1</div>
+									
+										<div class="item" data-value="GD">GD</div>
+									
+										<div class="item" data-value="GFDL-1.1-invariants-only">GFDL-1.1-invariants-only</div>
+									
+										<div class="item" data-value="GFDL-1.1-invariants-or-later">GFDL-1.1-invariants-or-later</div>
+									
+										<div class="item" data-value="GFDL-1.1-no-invariants-only">GFDL-1.1-no-invariants-only</div>
+									
+										<div class="item" data-value="GFDL-1.1-no-invariants-or-later">GFDL-1.1-no-invariants-or-later</div>
+									
+										<div class="item" data-value="GFDL-1.1-only">GFDL-1.1-only</div>
+									
+										<div class="item" data-value="GFDL-1.1-or-later">GFDL-1.1-or-later</div>
+									
+										<div class="item" data-value="GFDL-1.2-invariants-only">GFDL-1.2-invariants-only</div>
+									
+										<div class="item" data-value="GFDL-1.2-invariants-or-later">GFDL-1.2-invariants-or-later</div>
+									
+										<div class="item" data-value="GFDL-1.2-no-invariants-only">GFDL-1.2-no-invariants-only</div>
+									
+										<div class="item" data-value="GFDL-1.2-no-invariants-or-later">GFDL-1.2-no-invariants-or-later</div>
+									
+										<div class="item" data-value="GFDL-1.2-only">GFDL-1.2-only</div>
+									
+										<div class="item" data-value="GFDL-1.2-or-later">GFDL-1.2-or-later</div>
+									
+										<div class="item" data-value="GFDL-1.3-invariants-only">GFDL-1.3-invariants-only</div>
+									
+										<div class="item" data-value="GFDL-1.3-invariants-or-later">GFDL-1.3-invariants-or-later</div>
+									
+										<div class="item" data-value="GFDL-1.3-no-invariants-only">GFDL-1.3-no-invariants-only</div>
+									
+										<div class="item" data-value="GFDL-1.3-no-invariants-or-later">GFDL-1.3-no-invariants-or-later</div>
+									
+										<div class="item" data-value="GFDL-1.3-only">GFDL-1.3-only</div>
+									
+										<div class="item" data-value="GFDL-1.3-or-later">GFDL-1.3-or-later</div>
+									
+										<div class="item" data-value="GL2PS">GL2PS</div>
+									
+										<div class="item" data-value="GLWTPL">GLWTPL</div>
+									
+										<div class="item" data-value="GPL-1.0-only">GPL-1.0-only</div>
+									
+										<div class="item" data-value="GPL-1.0-or-later">GPL-1.0-or-later</div>
+									
+										<div class="item" data-value="GPL-2.0-only">GPL-2.0-only</div>
+									
+										<div class="item" data-value="GPL-2.0-or-later">GPL-2.0-or-later</div>
+									
+										<div class="item" data-value="GPL-3.0-linking-exception">GPL-3.0-linking-exception</div>
+									
+										<div class="item" data-value="GPL-3.0-linking-source-exception">GPL-3.0-linking-source-exception</div>
+									
+										<div class="item" data-value="GPL-3.0-only">GPL-3.0-only</div>
+									
+										<div class="item" data-value="GPL-3.0-or-later">GPL-3.0-or-later</div>
+									
+										<div class="item" data-value="GPL-CC-1.0">GPL-CC-1.0</div>
+									
+										<div class="item" data-value="Giftware">Giftware</div>
+									
+										<div class="item" data-value="Glide">Glide</div>
+									
+										<div class="item" data-value="Glulxe">Glulxe</div>
+									
+										<div class="item" data-value="HPND">HPND</div>
+									
+										<div class="item" data-value="HPND-sell-variant">HPND-sell-variant</div>
+									
+										<div class="item" data-value="HTMLTIDY">HTMLTIDY</div>
+									
+										<div class="item" data-value="HaskellReport">HaskellReport</div>
+									
+										<div class="item" data-value="Hippocratic-2.1">Hippocratic-2.1</div>
+									
+										<div class="item" data-value="IBM-pibs">IBM-pibs</div>
+									
+										<div class="item" data-value="ICU">ICU</div>
+									
+										<div class="item" data-value="IJG">IJG</div>
+									
+										<div class="item" data-value="IPA">IPA</div>
+									
+										<div class="item" data-value="IPL-1.0">IPL-1.0</div>
+									
+										<div class="item" data-value="ISC">ISC</div>
+									
+										<div class="item" data-value="ImageMagick">ImageMagick</div>
+									
+										<div class="item" data-value="Imlib2">Imlib2</div>
+									
+										<div class="item" data-value="Info-ZIP">Info-ZIP</div>
+									
+										<div class="item" data-value="Intel">Intel</div>
+									
+										<div class="item" data-value="Intel-ACPI">Intel-ACPI</div>
+									
+										<div class="item" data-value="Interbase-1.0">Interbase-1.0</div>
+									
+										<div class="item" data-value="JPNIC">JPNIC</div>
+									
+										<div class="item" data-value="JSON">JSON</div>
+									
+										<div class="item" data-value="JasPer-2.0">JasPer-2.0</div>
+									
+										<div class="item" data-value="LAL-1.2">LAL-1.2</div>
+									
+										<div class="item" data-value="LAL-1.3">LAL-1.3</div>
+									
+										<div class="item" data-value="LGPL-2.0-only">LGPL-2.0-only</div>
+									
+										<div class="item" data-value="LGPL-2.0-or-later">LGPL-2.0-or-later</div>
+									
+										<div class="item" data-value="LGPL-2.1-only">LGPL-2.1-only</div>
+									
+										<div class="item" data-value="LGPL-2.1-or-later">LGPL-2.1-or-later</div>
+									
+										<div class="item" data-value="LGPL-3.0-linking-exception">LGPL-3.0-linking-exception</div>
+									
+										<div class="item" data-value="LGPL-3.0-only">LGPL-3.0-only</div>
+									
+										<div class="item" data-value="LGPL-3.0-or-later">LGPL-3.0-or-later</div>
+									
+										<div class="item" data-value="LGPLLR">LGPLLR</div>
+									
+										<div class="item" data-value="LLVM-exception">LLVM-exception</div>
+									
+										<div class="item" data-value="LPL-1.0">LPL-1.0</div>
+									
+										<div class="item" data-value="LPL-1.02">LPL-1.02</div>
+									
+										<div class="item" data-value="LPPL-1.0">LPPL-1.0</div>
+									
+										<div class="item" data-value="LPPL-1.1">LPPL-1.1</div>
+									
+										<div class="item" data-value="LPPL-1.2">LPPL-1.2</div>
+									
+										<div class="item" data-value="LPPL-1.3a">LPPL-1.3a</div>
+									
+										<div class="item" data-value="LPPL-1.3c">LPPL-1.3c</div>
+									
+										<div class="item" data-value="LZMA-exception">LZMA-exception</div>
+									
+										<div class="item" data-value="Latex2e">Latex2e</div>
+									
+										<div class="item" data-value="Leptonica">Leptonica</div>
+									
+										<div class="item" data-value="LiLiQ-P-1.1">LiLiQ-P-1.1</div>
+									
+										<div class="item" data-value="LiLiQ-R-1.1">LiLiQ-R-1.1</div>
+									
+										<div class="item" data-value="LiLiQ-Rplus-1.1">LiLiQ-Rplus-1.1</div>
+									
+										<div class="item" data-value="Libpng">Libpng</div>
+									
+										<div class="item" data-value="Libtool-exception">Libtool-exception</div>
+									
+										<div class="item" data-value="Linux-OpenIB">Linux-OpenIB</div>
+									
+										<div class="item" data-value="Linux-syscall-note">Linux-syscall-note</div>
+									
+										<div class="item" data-value="MIT">MIT</div>
+									
+										<div class="item" data-value="MIT-0">MIT-0</div>
+									
+										<div class="item" data-value="MIT-CMU">MIT-CMU</div>
+									
+										<div class="item" data-value="MIT-Modern-Variant">MIT-Modern-Variant</div>
+									
+										<div class="item" data-value="MIT-advertising">MIT-advertising</div>
+									
+										<div class="item" data-value="MIT-enna">MIT-enna</div>
+									
+										<div class="item" data-value="MIT-feh">MIT-feh</div>
+									
+										<div class="item" data-value="MIT-open-group">MIT-open-group</div>
+									
+										<div class="item" data-value="MITNFA">MITNFA</div>
+									
+										<div class="item" data-value="MPL-1.0">MPL-1.0</div>
+									
+										<div class="item" data-value="MPL-1.1">MPL-1.1</div>
+									
+										<div class="item" data-value="MPL-2.0">MPL-2.0</div>
+									
+										<div class="item" data-value="MPL-2.0-no-copyleft-exception">MPL-2.0-no-copyleft-exception</div>
+									
+										<div class="item" data-value="MS-PL">MS-PL</div>
+									
+										<div class="item" data-value="MS-RL">MS-RL</div>
+									
+										<div class="item" data-value="MTLL">MTLL</div>
+									
+										<div class="item" data-value="MakeIndex">MakeIndex</div>
+									
+										<div class="item" data-value="MirOS">MirOS</div>
+									
+										<div class="item" data-value="Motosoto">Motosoto</div>
+									
+										<div class="item" data-value="MulanPSL-1.0">MulanPSL-1.0</div>
+									
+										<div class="item" data-value="MulanPSL-2.0">MulanPSL-2.0</div>
+									
+										<div class="item" data-value="Multics">Multics</div>
+									
+										<div class="item" data-value="Mup">Mup</div>
+									
+										<div class="item" data-value="NAIST-2003">NAIST-2003</div>
+									
+										<div class="item" data-value="NASA-1.3">NASA-1.3</div>
+									
+										<div class="item" data-value="NBPL-1.0">NBPL-1.0</div>
+									
+										<div class="item" data-value="NCGL-UK-2.0">NCGL-UK-2.0</div>
+									
+										<div class="item" data-value="NCSA">NCSA</div>
+									
+										<div class="item" data-value="NGPL">NGPL</div>
+									
+										<div class="item" data-value="NIST-PD">NIST-PD</div>
+									
+										<div class="item" data-value="NIST-PD-fallback">NIST-PD-fallback</div>
+									
+										<div class="item" data-value="NLOD-1.0">NLOD-1.0</div>
+									
+										<div class="item" data-value="NLPL">NLPL</div>
+									
+										<div class="item" data-value="NOSL">NOSL</div>
+									
+										<div class="item" data-value="NPL-1.0">NPL-1.0</div>
+									
+										<div class="item" data-value="NPL-1.1">NPL-1.1</div>
+									
+										<div class="item" data-value="NPOSL-3.0">NPOSL-3.0</div>
+									
+										<div class="item" data-value="NRL">NRL</div>
+									
+										<div class="item" data-value="NTP">NTP</div>
+									
+										<div class="item" data-value="NTP-0">NTP-0</div>
+									
+										<div class="item" data-value="Naumen">Naumen</div>
+									
+										<div class="item" data-value="Net-SNMP">Net-SNMP</div>
+									
+										<div class="item" data-value="NetCDF">NetCDF</div>
+									
+										<div class="item" data-value="Newsletr">Newsletr</div>
+									
+										<div class="item" data-value="Nokia">Nokia</div>
+									
+										<div class="item" data-value="Nokia-Qt-exception-1.1">Nokia-Qt-exception-1.1</div>
+									
+										<div class="item" data-value="Noweb">Noweb</div>
+									
+										<div class="item" data-value="O-UDA-1.0">O-UDA-1.0</div>
+									
+										<div class="item" data-value="OCCT-PL">OCCT-PL</div>
+									
+										<div class="item" data-value="OCCT-exception-1.0">OCCT-exception-1.0</div>
+									
+										<div class="item" data-value="OCLC-2.0">OCLC-2.0</div>
+									
+										<div class="item" data-value="OCaml-LGPL-linking-exception">OCaml-LGPL-linking-exception</div>
+									
+										<div class="item" data-value="ODC-By-1.0">ODC-By-1.0</div>
+									
+										<div class="item" data-value="ODbL-1.0">ODbL-1.0</div>
+									
+										<div class="item" data-value="OFL-1.0">OFL-1.0</div>
+									
+										<div class="item" data-value="OFL-1.0-RFN">OFL-1.0-RFN</div>
+									
+										<div class="item" data-value="OFL-1.0-no-RFN">OFL-1.0-no-RFN</div>
+									
+										<div class="item" data-value="OFL-1.1">OFL-1.1</div>
+									
+										<div class="item" data-value="OFL-1.1-RFN">OFL-1.1-RFN</div>
+									
+										<div class="item" data-value="OFL-1.1-no-RFN">OFL-1.1-no-RFN</div>
+									
+										<div class="item" data-value="OGC-1.0">OGC-1.0</div>
+									
+										<div class="item" data-value="OGDL-Taiwan-1.0">OGDL-Taiwan-1.0</div>
+									
+										<div class="item" data-value="OGL-Canada-2.0">OGL-Canada-2.0</div>
+									
+										<div class="item" data-value="OGL-UK-1.0">OGL-UK-1.0</div>
+									
+										<div class="item" data-value="OGL-UK-2.0">OGL-UK-2.0</div>
+									
+										<div class="item" data-value="OGL-UK-3.0">OGL-UK-3.0</div>
+									
+										<div class="item" data-value="OGTSL">OGTSL</div>
+									
+										<div class="item" data-value="OLDAP-1.1">OLDAP-1.1</div>
+									
+										<div class="item" data-value="OLDAP-1.2">OLDAP-1.2</div>
+									
+										<div class="item" data-value="OLDAP-1.3">OLDAP-1.3</div>
+									
+										<div class="item" data-value="OLDAP-1.4">OLDAP-1.4</div>
+									
+										<div class="item" data-value="OLDAP-2.0">OLDAP-2.0</div>
+									
+										<div class="item" data-value="OLDAP-2.0.1">OLDAP-2.0.1</div>
+									
+										<div class="item" data-value="OLDAP-2.1">OLDAP-2.1</div>
+									
+										<div class="item" data-value="OLDAP-2.2">OLDAP-2.2</div>
+									
+										<div class="item" data-value="OLDAP-2.2.1">OLDAP-2.2.1</div>
+									
+										<div class="item" data-value="OLDAP-2.2.2">OLDAP-2.2.2</div>
+									
+										<div class="item" data-value="OLDAP-2.3">OLDAP-2.3</div>
+									
+										<div class="item" data-value="OLDAP-2.4">OLDAP-2.4</div>
+									
+										<div class="item" data-value="OLDAP-2.7">OLDAP-2.7</div>
+									
+										<div class="item" data-value="OML">OML</div>
+									
+										<div class="item" data-value="OPL-1.0">OPL-1.0</div>
+									
+										<div class="item" data-value="OSET-PL-2.1">OSET-PL-2.1</div>
+									
+										<div class="item" data-value="OSL-1.0">OSL-1.0</div>
+									
+										<div class="item" data-value="OSL-1.1">OSL-1.1</div>
+									
+										<div class="item" data-value="OSL-2.0">OSL-2.0</div>
+									
+										<div class="item" data-value="OSL-2.1">OSL-2.1</div>
+									
+										<div class="item" data-value="OSL-3.0">OSL-3.0</div>
+									
+										<div class="item" data-value="OpenJDK-assembly-exception-1.0">OpenJDK-assembly-exception-1.0</div>
+									
+										<div class="item" data-value="OpenSSL">OpenSSL</div>
+									
+										<div class="item" data-value="PDDL-1.0">PDDL-1.0</div>
+									
+										<div class="item" data-value="PHP-3.0">PHP-3.0</div>
+									
+										<div class="item" data-value="PHP-3.01">PHP-3.01</div>
+									
+										<div class="item" data-value="PS-or-PDF-font-exception-20170817">PS-or-PDF-font-exception-20170817</div>
+									
+										<div class="item" data-value="PSF-2.0">PSF-2.0</div>
+									
+										<div class="item" data-value="Parity-6.0.0">Parity-6.0.0</div>
+									
+										<div class="item" data-value="Parity-7.0.0">Parity-7.0.0</div>
+									
+										<div class="item" data-value="Plexus">Plexus</div>
+									
+										<div class="item" data-value="PolyForm-Noncommercial-1.0.0">PolyForm-Noncommercial-1.0.0</div>
+									
+										<div class="item" data-value="PolyForm-Small-Business-1.0.0">PolyForm-Small-Business-1.0.0</div>
+									
+										<div class="item" data-value="PostgreSQL">PostgreSQL</div>
+									
+										<div class="item" data-value="Python-2.0">Python-2.0</div>
+									
+										<div class="item" data-value="QPL-1.0">QPL-1.0</div>
+									
+										<div class="item" data-value="Qhull">Qhull</div>
+									
+										<div class="item" data-value="Qt-GPL-exception-1.0">Qt-GPL-exception-1.0</div>
+									
+										<div class="item" data-value="Qt-LGPL-exception-1.1">Qt-LGPL-exception-1.1</div>
+									
+										<div class="item" data-value="Qwt-exception-1.0">Qwt-exception-1.0</div>
+									
+										<div class="item" data-value="RHeCos-1.1">RHeCos-1.1</div>
+									
+										<div class="item" data-value="RPL-1.1">RPL-1.1</div>
+									
+										<div class="item" data-value="RPSL-1.0">RPSL-1.0</div>
+									
+										<div class="item" data-value="RSA-MD">RSA-MD</div>
+									
+										<div class="item" data-value="RSCPL">RSCPL</div>
+									
+										<div class="item" data-value="Rdisc">Rdisc</div>
+									
+										<div class="item" data-value="Ruby">Ruby</div>
+									
+										<div class="item" data-value="SAX-PD">SAX-PD</div>
+									
+										<div class="item" data-value="SCEA">SCEA</div>
+									
+										<div class="item" data-value="SGI-B-1.0">SGI-B-1.0</div>
+									
+										<div class="item" data-value="SGI-B-1.1">SGI-B-1.1</div>
+									
+										<div class="item" data-value="SGI-B-2.0">SGI-B-2.0</div>
+									
+										<div class="item" data-value="SHL-0.51">SHL-0.51</div>
+									
+										<div class="item" data-value="SHL-2.0">SHL-2.0</div>
+									
+										<div class="item" data-value="SHL-2.1">SHL-2.1</div>
+									
+										<div class="item" data-value="SISSL">SISSL</div>
+									
+										<div class="item" data-value="SISSL-1.2">SISSL-1.2</div>
+									
+										<div class="item" data-value="SMLNJ">SMLNJ</div>
+									
+										<div class="item" data-value="SMPPL">SMPPL</div>
+									
+										<div class="item" data-value="SNIA">SNIA</div>
+									
+										<div class="item" data-value="SPL-1.0">SPL-1.0</div>
+									
+										<div class="item" data-value="SSH-OpenSSH">SSH-OpenSSH</div>
+									
+										<div class="item" data-value="SSH-short">SSH-short</div>
+									
+										<div class="item" data-value="SSPL-1.0">SSPL-1.0</div>
+									
+										<div class="item" data-value="SWL">SWL</div>
+									
+										<div class="item" data-value="Saxpath">Saxpath</div>
+									
+										<div class="item" data-value="Sendmail">Sendmail</div>
+									
+										<div class="item" data-value="Sendmail-8.23">Sendmail-8.23</div>
+									
+										<div class="item" data-value="SimPL-2.0">SimPL-2.0</div>
+									
+										<div class="item" data-value="Sleepycat">Sleepycat</div>
+									
+										<div class="item" data-value="Spencer-86">Spencer-86</div>
+									
+										<div class="item" data-value="Spencer-94">Spencer-94</div>
+									
+										<div class="item" data-value="Spencer-99">Spencer-99</div>
+									
+										<div class="item" data-value="SugarCRM-1.1.3">SugarCRM-1.1.3</div>
+									
+										<div class="item" data-value="Swift-exception">Swift-exception</div>
+									
+										<div class="item" data-value="TAPR-OHL-1.0">TAPR-OHL-1.0</div>
+									
+										<div class="item" data-value="TCL">TCL</div>
+									
+										<div class="item" data-value="TCP-wrappers">TCP-wrappers</div>
+									
+										<div class="item" data-value="TMate">TMate</div>
+									
+										<div class="item" data-value="TORQUE-1.1">TORQUE-1.1</div>
+									
+										<div class="item" data-value="TOSL">TOSL</div>
+									
+										<div class="item" data-value="TU-Berlin-1.0">TU-Berlin-1.0</div>
+									
+										<div class="item" data-value="TU-Berlin-2.0">TU-Berlin-2.0</div>
+									
+										<div class="item" data-value="UCL-1.0">UCL-1.0</div>
+									
+										<div class="item" data-value="UPL-1.0">UPL-1.0</div>
+									
+										<div class="item" data-value="Unicode-DFS-2015">Unicode-DFS-2015</div>
+									
+										<div class="item" data-value="Unicode-DFS-2016">Unicode-DFS-2016</div>
+									
+										<div class="item" data-value="Unicode-TOU">Unicode-TOU</div>
+									
+										<div class="item" data-value="Universal-FOSS-exception-1.0">Universal-FOSS-exception-1.0</div>
+									
+										<div class="item" data-value="Unlicense">Unlicense</div>
+									
+										<div class="item" data-value="VOSTROM">VOSTROM</div>
+									
+										<div class="item" data-value="VSL-1.0">VSL-1.0</div>
+									
+										<div class="item" data-value="Vim">Vim</div>
+									
+										<div class="item" data-value="W3C">W3C</div>
+									
+										<div class="item" data-value="W3C-19980720">W3C-19980720</div>
+									
+										<div class="item" data-value="W3C-20150513">W3C-20150513</div>
+									
+										<div class="item" data-value="WTFPL">WTFPL</div>
+									
+										<div class="item" data-value="Watcom-1.0">Watcom-1.0</div>
+									
+										<div class="item" data-value="Wsuipa">Wsuipa</div>
+									
+										<div class="item" data-value="WxWindows-exception-3.1">WxWindows-exception-3.1</div>
+									
+										<div class="item" data-value="X11">X11</div>
+									
+										<div class="item" data-value="XFree86-1.1">XFree86-1.1</div>
+									
+										<div class="item" data-value="XSkat">XSkat</div>
+									
+										<div class="item" data-value="Xerox">Xerox</div>
+									
+										<div class="item" data-value="Xnet">Xnet</div>
+									
+										<div class="item" data-value="YPL-1.0">YPL-1.0</div>
+									
+										<div class="item" data-value="YPL-1.1">YPL-1.1</div>
+									
+										<div class="item" data-value="ZPL-1.1">ZPL-1.1</div>
+									
+										<div class="item" data-value="ZPL-2.0">ZPL-2.0</div>
+									
+										<div class="item" data-value="ZPL-2.1">ZPL-2.1</div>
+									
+										<div class="item" data-value="Zed">Zed</div>
+									
+										<div class="item" data-value="Zend-2.0">Zend-2.0</div>
+									
+										<div class="item" data-value="Zimbra-1.3">Zimbra-1.3</div>
+									
+										<div class="item" data-value="Zimbra-1.4">Zimbra-1.4</div>
+									
+										<div class="item" data-value="Zlib">Zlib</div>
+									
+										<div class="item" data-value="blessing">blessing</div>
+									
+										<div class="item" data-value="copyleft-next-0.3.0">copyleft-next-0.3.0</div>
+									
+										<div class="item" data-value="copyleft-next-0.3.1">copyleft-next-0.3.1</div>
+									
+										<div class="item" data-value="curl">curl</div>
+									
+										<div class="item" data-value="diffmark">diffmark</div>
+									
+										<div class="item" data-value="dvipdfm">dvipdfm</div>
+									
+										<div class="item" data-value="eCos-exception-2.0">eCos-exception-2.0</div>
+									
+										<div class="item" data-value="eGenix">eGenix</div>
+									
+										<div class="item" data-value="etalab-2.0">etalab-2.0</div>
+									
+										<div class="item" data-value="freertos-exception-2.0">freertos-exception-2.0</div>
+									
+										<div class="item" data-value="gSOAP-1.3b">gSOAP-1.3b</div>
+									
+										<div class="item" data-value="gnu-javamail-exception">gnu-javamail-exception</div>
+									
+										<div class="item" data-value="gnuplot">gnuplot</div>
+									
+										<div class="item" data-value="i2p-gpl-java-exception">i2p-gpl-java-exception</div>
+									
+										<div class="item" data-value="iMatix">iMatix</div>
+									
+										<div class="item" data-value="libpng-2.0">libpng-2.0</div>
+									
+										<div class="item" data-value="libselinux-1.0">libselinux-1.0</div>
+									
+										<div class="item" data-value="libtiff">libtiff</div>
+									
+										<div class="item" data-value="mif-exception">mif-exception</div>
+									
+										<div class="item" data-value="mpich2">mpich2</div>
+									
+										<div class="item" data-value="openvpn-openssl-exception">openvpn-openssl-exception</div>
+									
+										<div class="item" data-value="psfrag">psfrag</div>
+									
+										<div class="item" data-value="psutils">psutils</div>
+									
+										<div class="item" data-value="u-boot-exception-2.0">u-boot-exception-2.0</div>
+									
+										<div class="item" data-value="xinetd">xinetd</div>
+									
+										<div class="item" data-value="xpp">xpp</div>
+									
+										<div class="item" data-value="zlib-acknowledgement">zlib-acknowledgement</div>
+									
+								</div>
+							</div>
+							<span class="help">A license governs what others can and can&#39;t do with your code. Not sure which one is right for your project? See <a target="_blank" rel="noopener noreferrer nofollow" href="https://choosealicense.com/">Choose a license.</a></span>
+						</div>
+
+						<div class="inline field">
+							<label>README</label>
+							<div class="ui selection dropdown">
+								<input type="hidden" name="readme" value="Default">
+								<div class="default text">Select a README file template.</div>
+								<div class="menu">
+									
+										<div class="item" data-value="Default">Default</div>
+									
+								</div>
+							</div>
+							<span class="help">This is the place where you can write a complete description for your project.</span>
+						</div>
+						<div class="inline field">
+							<div class="ui checkbox" id="auto-init">
+								<input class="hidden" name="auto_init" type="checkbox" tabindex="0" >
+								<label>Initialize Repository (Adds .gitignore, License and README)</label>
+							</div>
+						</div>
+						<div class="inline field">
+							<label for="default_branch">Default Branch</label>
+							<input id="default_branch" name="default_branch" value="main" placeholder="main">
+							<span class="help">The default branch is the base branch for pull requests and code commits.</span>
+						</div>
+						<div class="inline field">
+							<label>Signature Trust Model</label>
+							<div class="ui selection owner dropdown">
+								<input type="hidden" id="trust_model" name="trust_model" value="default" required>
+								<div class="default text">Signature Trust Model</div>
+								<svg viewBox="0 0 16 16" class="dropdown icon svg octicon-triangle-down" width="14" height="14" aria-hidden="true"><path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"/></svg>
+								<div class="menu">
+									<div class="item" data-value="default">Default Trust Model</div>
+									<div class="item" data-value="collaborator">Collaborator</div>
+									<div class="item" data-value="committer">Committer</div>
+									<div class="item" data-value="collaboratorcommitter">Collaborator&#43;Committer</div>
+								</div>
+							</div>
+							<div class="help">
+								Select trust model for signature verification. Possible options are:
+								<ul>
+									<li>Collaborator: Trust signatures by collaborators</li>
+									<li>Committer: Trust signatures that match committers</li>
+									<li>Collaborator&#43;Committer: Trust signatures by collaborators which match the committer</li>
+									<li>Default: Use the default trust model for this installation</li>
+								</ul>
+							</div>
+						</div>
+						<div class="inline field">
+							<label>Template</label>
+							<div class="ui checkbox">
+								<input class="hidden" name="template" type="checkbox" tabindex="0">
+								<label>Make repository a template</label>
+							</div>
+						</div>
+					</div>
+
+					<br/>
+					<div class="inline field">
+						<label></label>
+						<button class="ui green button">
+							Create Repository
+						</button>
+						<a class="ui button" href="/">Cancel</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+	
+
+	</div>
+
+	
+
+	<footer>
+	<div class="ui container">
+		<div class="ui left">
+			Powered by Gitea Version: 1.14.1 Page: <strong>8ms</strong> Template: <strong>7ms</strong>
+		</div>
+		<div class="ui right links">
+			
+			<div class="ui language bottom floating slide up dropdown link item">
+				<svg viewBox="0 0 16 16" class="svg octicon-globe" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.543 7.25h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.506 6.506 0 00-4.666 5.5zm2.733 1.5H1.543a6.506 6.506 0 004.666 5.5 11.13 11.13 0 01-.352-.552c-.715-1.192-1.437-2.874-1.581-4.948zm1.504 0h4.44a9.637 9.637 0 01-1.363 4.177c-.306.51-.612.919-.857 1.215a9.978 9.978 0 01-.857-1.215A9.637 9.637 0 015.78 8.75zm4.44-1.5H5.78a9.637 9.637 0 011.363-4.177c.306-.51.612-.919.857-1.215.245.296.55.705.857 1.215A9.638 9.638 0 0110.22 7.25zm1.504 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.506 6.506 0 004.666-5.5h-2.733zm2.733-1.5h-2.733c-.144-2.074-.866-3.756-1.58-4.948a11.738 11.738 0 00-.353-.552 6.506 6.506 0 014.666 5.5zM8 0a8 8 0 100 16A8 8 0 008 0z"/></svg>
+				<div class="text">English</div>
+				<div class="menu language-menu">
+					
+						<a lang="en-US" data-url="/?lang=en-US" class="item active selected">English</a>
+					
+						<a lang="zh-CN" data-url="/?lang=zh-CN" class="item ">简体中文</a>
+					
+						<a lang="zh-HK" data-url="/?lang=zh-HK" class="item ">繁體中文（香港）</a>
+					
+						<a lang="zh-TW" data-url="/?lang=zh-TW" class="item ">繁體中文（台灣）</a>
+					
+						<a lang="de-DE" data-url="/?lang=de-DE" class="item ">Deutsch</a>
+					
+						<a lang="fr-FR" data-url="/?lang=fr-FR" class="item ">français</a>
+					
+						<a lang="nl-NL" data-url="/?lang=nl-NL" class="item ">Nederlands</a>
+					
+						<a lang="lv-LV" data-url="/?lang=lv-LV" class="item ">latviešu</a>
+					
+						<a lang="ru-RU" data-url="/?lang=ru-RU" class="item ">русский</a>
+					
+						<a lang="uk-UA" data-url="/?lang=uk-UA" class="item ">Українська</a>
+					
+						<a lang="ja-JP" data-url="/?lang=ja-JP" class="item ">日本語</a>
+					
+						<a lang="es-ES" data-url="/?lang=es-ES" class="item ">español</a>
+					
+						<a lang="pt-BR" data-url="/?lang=pt-BR" class="item ">português do Brasil</a>
+					
+						<a lang="pt-PT" data-url="/?lang=pt-PT" class="item ">Português de Portugal</a>
+					
+						<a lang="pl-PL" data-url="/?lang=pl-PL" class="item ">polski</a>
+					
+						<a lang="bg-BG" data-url="/?lang=bg-BG" class="item ">български</a>
+					
+						<a lang="it-IT" data-url="/?lang=it-IT" class="item ">italiano</a>
+					
+						<a lang="fi-FI" data-url="/?lang=fi-FI" class="item ">suomi</a>
+					
+						<a lang="tr-TR" data-url="/?lang=tr-TR" class="item ">Türkçe</a>
+					
+						<a lang="cs-CZ" data-url="/?lang=cs-CZ" class="item ">čeština</a>
+					
+						<a lang="sr-SP" data-url="/?lang=sr-SP" class="item ">српски</a>
+					
+						<a lang="sv-SE" data-url="/?lang=sv-SE" class="item ">svenska</a>
+					
+						<a lang="ko-KR" data-url="/?lang=ko-KR" class="item ">한국어</a>
+					
+				</div>
+			</div>
+			<a href="/js/licenses.txt">Licenses</a>
+			<a href="/api/swagger">API</a>
+			<a target="_blank" rel="noopener noreferrer" href="https://gitea.io">Website</a>
+			
+			<span class="version">Go1.16.3</span>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+	<script src="/js/index.js?v=0c014ed3f83cba3010ffa07c87a71067"></script>
+
+</body>
+</html>
+
+�=�{�9           `���Cߡ`���   G    O^partitionKey=%28https%2Cdn42.dev%29,:https://git.dn42.dev/repo/create strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+content-type: text/html; charset=UTF-8
+date: Wed, 23 Jun 2021 05:12:54 GMT
+server: Caddy
+x-frame-options: SAMEORIGIN
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/html; charset=UTF-8
+date: Wed, 23 Jun 2021 05:12:54 GMT
+server: Caddy
+set-cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+x-frame-options: SAMEORIGIN
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0  ?t

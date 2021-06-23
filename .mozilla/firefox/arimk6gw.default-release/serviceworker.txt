@@ -1,0 +1,11 @@
+8
+
+https://git.dn42.dev/
+https://git.dn42.dev/serviceworker.js
+true
+{6b5990d6-dc0f-4b5b-8f82-e1362a2dde9c}
+0
+1623560368504532
+1623560368507601
+1623560368373000
+#

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-US" class="theme-">
+<head data-suburl="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Sign In -  DN42 GIT </title>
+	<link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiRE40MiBHSVQiLCJzaG9ydF9uYW1lIjoiRE40MiBHSVQiLCJzdGFydF91cmwiOiJodHRwczovL2dpdC5kbjQyLmRldi8iLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9naXQuZG40Mi5kZXYvaW1nL2xvZ28ucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInNpemVzIjoiNTEyeDUxMiJ9LHsic3JjIjoiaHR0cHM6Ly9naXQuZG40Mi5kZXYvaW1nL2xvZ28uc3ZnIiwidHlwZSI6ImltYWdlL3N2Zyt4bWwiLCJzaXplcyI6IjUxMng1MTIifV19"/>
+	<meta name="theme-color" content="#6cc644">
+	<meta name="default-theme" content="gitea" />
+	<meta name="author" content="Gitea - Git with a cup of tea" />
+	<meta name="description" content="Gitea (Git with a cup of tea) is a painless self-hosted Git service written in Go" />
+	<meta name="keywords" content="go,git,self-hosted,gitea">
+	<meta name="referrer" content="no-referrer" />
+	<meta name="_csrf" content="35q9oa3MdHEJ3rCrgejAGb3Tq7Y6MTYyNDQyNTMyMjA5MDc3MDQwNA" />
+	
+	
+	
+
+	<script>
+		window.config = {
+			AppVer: '1.14.1',
+			AppSubUrl: '',
+			StaticUrlPrefix: '',
+			UseServiceWorker:  true ,
+			csrf: '35q9oa3MdHEJ3rCrgejAGb3Tq7Y6MTYyNDQyNTMyMjA5MDc3MDQwNA',
+			HighlightJS: false,
+			SimpleMDE: false,
+			Tribute: false,
+			NotificationSettings: {
+				MinTimeout:  10000 ,
+				TimeoutStep:   10000 ,
+				MaxTimeout:  60000 ,
+				EventSourceUpdateTime:  10000 ,
+			},
+			EnableTimetracking: true,
+			PageIsProjects: false,
+			
+		};
+	</script>
+	<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+	<link rel="alternate icon" href="/img/favicon.png" type="image/png">
+
+	<link rel="stylesheet" href="/css/index.css?v=0c014ed3f83cba3010ffa07c87a71067">
+	<noscript>
+		<style>
+			.dropdown:hover > .menu { display: block; }
+			.ui.secondary.menu .dropdown.item > .menu { margin-top: 0; }
+		</style>
+	</noscript>
+	<style class="list-search-style"></style>
+
+	<meta property="og:title" content="DN42 GIT">
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/img/logo.png" />
+	<meta property="og:url" content="https://git.dn42.dev/" />
+	<meta property="og:description" content="Gitea (Git with a cup of tea) is a painless self-hosted Git service written in Go">
+
+<meta property="og:site_name" content="DN42 GIT" />
+
+
+</head>
+<body>
+	
+
+	<div class="full height">
+		<noscript>This website works better with JavaScript.</noscript>
+
+		
+
+		
+			<div class="ui top secondary stackable main menu following bar light">
+				<div class="ui container" id="navbar">
+	<div class="item brand" style="justify-content: space-between;">
+		<a href="/">
+			<img class="ui mini image" with="30" height="30" src="/img/logo.svg">
+		</a>
+		<div class="ui basic icon button mobile-only" id="navbar-expand-toggle">
+			<i class="sidebar icon"></i>
+		</div>
+	</div>
+
+	
+		<a class="item " href="/">Home</a>
+		<a class="item " href="/explore/repos">Explore</a>
+	
+
+	
+
+	
+
+
+	
+		<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io">Help</a>
+		<div class="right stackable menu">
+			
+				<a class="item" href="/user/sign_up">
+					<svg viewBox="0 0 16 16" class="svg octicon-person" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.5 5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm.061 3.073a4 4 0 10-5.123 0 6.004 6.004 0 00-3.431 5.142.75.75 0 001.498.07 4.5 4.5 0 018.99 0 .75.75 0 101.498-.07 6.005 6.005 0 00-3.432-5.142z"/></svg> Register
+				</a>
+			
+			<a class="item active" rel="nofollow" href="/user/login?redirect_to=%2fuser%2flogin%3fredirect_to%3d%252f">
+				<svg viewBox="0 0 16 16" class="svg octicon-sign-in" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm6.56 4.5l1.97-1.97a.75.75 0 10-1.06-1.06L6.22 7.47a.75.75 0 000 1.06l3.25 3.25a.75.75 0 101.06-1.06L8.56 8.75h5.69a.75.75 0 000-1.5H8.56z"/></svg> Sign In
+			</a>
+		</div>
+	
+</div>
+
+			</div>
+		
+
+
+<div class="page-content user signin">
+	
+<div class="ui secondary pointing tabular top attached borderless menu new-menu navbar">
+	<div class="new-menu-inner">
+		<a class="active item" rel="nofollow" href="/user/login">
+			Sign In
+		</a>
+		
+		<a class=" item" rel="nofollow" href="/user/login/openid">
+			<i class="fa fa-openid"></i>
+			&nbsp;OpenID
+		</a>
+		
+		
+	</div>
+</div>
+
+
+	<div class="ui middle very relaxed page grid">
+		<div class="ui container column">
+					
+		
+
+
+
+		
+		<h4 class="ui top attached header center">
+			
+				Sign In
+			
+		</h4>
+		<div class="ui attached segment">
+			<form class="ui form" action="/user/login" method="post">
+			<input type="hidden" name="_csrf" value="35q9oa3MdHEJ3rCrgejAGb3Tq7Y6MTYyNDQyNTMyMjA5MDc3MDQwNA">
+			<div class="required inline field ">
+				<label for="user_name">Username or Email Address</label>
+				<input id="user_name" type="text" name="user_name" value="" autofocus required>
+			</div>
+			
+			<div class="required inline field ">
+				<label for="password">Password</label>
+				<input id="password" name="password" type="password" value="" autocomplete="current-password" required>
+			</div>
+			
+			
+			<div class="inline field">
+				<label></label>
+				<div class="ui checkbox">
+					<label>Remember this Device</label>
+					<input name="remember" type="checkbox">
+				</div>
+			</div>
+			
+
+			<div class="inline field">
+				<label></label>
+				<button class="ui green button">
+					
+						Sign In
+					
+				</button>
+				<a href="/user/forgot_password">Forgot password?</a>
+			</div>
+
+			
+				<div class="inline field">
+					<label></label>
+					<a href="/user/sign_up">Need an account? Register now.</a>
+				</div>
+			
+
+			
+			</form>
+		</div>
+
+		</div>
+	</div>
+</div>
+
+
+	
+
+	</div>
+
+	
+
+	<footer>
+	<div class="ui container">
+		<div class="ui left">
+			Powered by Gitea Version: 1.14.1 Page: <strong>1ms</strong> Template: <strong>1ms</strong>
+		</div>
+		<div class="ui right links">
+			
+			<div class="ui language bottom floating slide up dropdown link item">
+				<svg viewBox="0 0 16 16" class="svg octicon-globe" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.543 7.25h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.506 6.506 0 00-4.666 5.5zm2.733 1.5H1.543a6.506 6.506 0 004.666 5.5 11.13 11.13 0 01-.352-.552c-.715-1.192-1.437-2.874-1.581-4.948zm1.504 0h4.44a9.637 9.637 0 01-1.363 4.177c-.306.51-.612.919-.857 1.215a9.978 9.978 0 01-.857-1.215A9.637 9.637 0 015.78 8.75zm4.44-1.5H5.78a9.637 9.637 0 011.363-4.177c.306-.51.612-.919.857-1.215.245.296.55.705.857 1.215A9.638 9.638 0 0110.22 7.25zm1.504 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.506 6.506 0 004.666-5.5h-2.733zm2.733-1.5h-2.733c-.144-2.074-.866-3.756-1.58-4.948a11.738 11.738 0 00-.353-.552 6.506 6.506 0 014.666 5.5zM8 0a8 8 0 100 16A8 8 0 008 0z"/></svg>
+				<div class="text">English</div>
+				<div class="menu language-menu">
+					
+						<a lang="en-US" data-url="/?lang=en-US" class="item active selected">English</a>
+					
+						<a lang="zh-CN" data-url="/?lang=zh-CN" class="item ">简体中文</a>
+					
+						<a lang="zh-HK" data-url="/?lang=zh-HK" class="item ">繁體中文（香港）</a>
+					
+						<a lang="zh-TW" data-url="/?lang=zh-TW" class="item ">繁體中文（台灣）</a>
+					
+						<a lang="de-DE" data-url="/?lang=de-DE" class="item ">Deutsch</a>
+					
+						<a lang="fr-FR" data-url="/?lang=fr-FR" class="item ">français</a>
+					
+						<a lang="nl-NL" data-url="/?lang=nl-NL" class="item ">Nederlands</a>
+					
+						<a lang="lv-LV" data-url="/?lang=lv-LV" class="item ">latviešu</a>
+					
+						<a lang="ru-RU" data-url="/?lang=ru-RU" class="item ">русский</a>
+					
+						<a lang="uk-UA" data-url="/?lang=uk-UA" class="item ">Українська</a>
+					
+						<a lang="ja-JP" data-url="/?lang=ja-JP" class="item ">日本語</a>
+					
+						<a lang="es-ES" data-url="/?lang=es-ES" class="item ">español</a>
+					
+						<a lang="pt-BR" data-url="/?lang=pt-BR" class="item ">português do Brasil</a>
+					
+						<a lang="pt-PT" data-url="/?lang=pt-PT" class="item ">Português de Portugal</a>
+					
+						<a lang="pl-PL" data-url="/?lang=pl-PL" class="item ">polski</a>
+					
+						<a lang="bg-BG" data-url="/?lang=bg-BG" class="item ">български</a>
+					
+						<a lang="it-IT" data-url="/?lang=it-IT" class="item ">italiano</a>
+					
+						<a lang="fi-FI" data-url="/?lang=fi-FI" class="item ">suomi</a>
+					
+						<a lang="tr-TR" data-url="/?lang=tr-TR" class="item ">Türkçe</a>
+					
+						<a lang="cs-CZ" data-url="/?lang=cs-CZ" class="item ">čeština</a>
+					
+						<a lang="sr-SP" data-url="/?lang=sr-SP" class="item ">српски</a>
+					
+						<a lang="sv-SE" data-url="/?lang=sv-SE" class="item ">svenska</a>
+					
+						<a lang="ko-KR" data-url="/?lang=ko-KR" class="item ">한국어</a>
+					
+				</div>
+			</div>
+			<a href="/js/licenses.txt">Licenses</a>
+			<a href="/api/swagger">API</a>
+			<a target="_blank" rel="noopener noreferrer" href="https://gitea.io">Website</a>
+			
+			<span class="version">Go1.16.3</span>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+	<script src="/js/index.js?v=0c014ed3f83cba3010ffa07c87a71067"></script>
+
+</body>
+</html>
+
+�
+ɷ�           `��yC�`��u   V    O^partitionKey=%28https%2Cdn42.dev%29,:https://git.dn42.dev/user/login?redirect_to=%2f strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+content-type: text/html; charset=UTF-8
+date: Wed, 23 Jun 2021 05:15:33 GMT
+server: Caddy
+x-frame-options: SAMEORIGIN
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/html; charset=UTF-8
+date: Wed, 23 Jun 2021 05:15:33 GMT
+server: Caddy
+set-cookie: redirect_to=%2F; Path=/; HttpOnly
+set-cookie: macaron_flash=; Path=/; Max-Age=0; HttpOnly
+x-frame-options: SAMEORIGIN
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 684 net-response-time-onstop 705   $�
