@@ -1,0 +1,8 @@
+domain:             bandonga.dn42
+descr:              bandonga
+admin-c:            BANDONGA-DN42
+tech-c:             BANDONGA-DN42
+mnt-by:             BANDONGA-MNT
+nserver:            ns1.bandonga.dn42 172.21.77.2
+nserver:            ns1.bandonga.dn42 fd9d:7372:f0d0::2
+source:             DN42

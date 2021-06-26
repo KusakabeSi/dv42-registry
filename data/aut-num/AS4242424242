@@ -1,0 +1,7 @@
+aut-num:            AS4242424242
+as-name:            BANDONGA-AS
+descr:              bandonga AS
+admin-c:            BANDONGA-DN42
+tech-c:             BANDONGA-DN42
+mnt-by:             BANDONGA-MNT
+source:             DN42

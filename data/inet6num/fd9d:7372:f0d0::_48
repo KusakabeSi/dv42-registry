@@ -1,0 +1,9 @@
+inet6num:           fd9d:7372:f0d0:0000:0000:0000:0000:0000 - fd9d:7372:f0d0:ffff:ffff:ffff:ffff:ffff
+cidr:               fd9d:7372:f0d0::/48
+netname:            BANDONGA-NET6
+country:            PT
+admin-c:            BANDONGA-DN42
+tech-c:             BANDONGA-DN42
+mnt-by:             BANDONGA-MNT
+status:             ASSIGNED
+source:             DN42

@@ -1,0 +1,4 @@
+route6:             fd9d:7372:f0d0::/48
+origin:             AS4242424242
+mnt-by:             BANDONGA-MNT
+source:             DN42

@@ -1,0 +1,9 @@
+inetnum:            172.21.77.0 - 172.21.77.31
+cidr:               172.21.77.0/27
+netname:            BANDONGA-NET
+country:            PT
+admin-c:            BANDONGA-DN42
+tech-c:             BANDONGA-DN42
+mnt-by:             BANDONGA-MNT
+status:             ASSIGNED
+source:             DN42
