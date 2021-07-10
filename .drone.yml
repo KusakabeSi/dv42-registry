@@ -10,7 +10,7 @@ steps:
    SQUASHBOT_TOKEN:
      from_secret: SQUASHBOT_TOKEN
   commands:
-   - /scripts/squashbot
+   - /scripts/wrapper
 
 trigger:
   event:

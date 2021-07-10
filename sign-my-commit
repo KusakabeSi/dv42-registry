@@ -20,6 +20,7 @@ usage()
     echo ' --ssh,    sign using your ssh key'
     echo ' --push,   force push result'
     echo ' --verify, check existing signature is correct'
+    echo ' --commit, verify this specific commit'
     echo ' --help,   display this message'
     echo 'SSH specific options:'
     echo ' --key,    (required for signing) specify SSH private key file to use'
@@ -33,6 +34,7 @@ AUTH_METHOD=''
 MNTNER=''
 SSH_KEYFILE=''
 VERIFY_ONLY=0
+COMMIT_SHA=''
 
 ##########################################################################
 # parse arguments
@@ -56,6 +58,10 @@ do
             ;;
         --verify)
             VERIFY_ONLY=1
+            ;;
+        --commit)
+            shift
+            COMMIT_SHA="$1"
             ;;
         --help)
             usage
@@ -85,7 +91,7 @@ if [ "$VERIFY_ONLY" -eq 1 ]
 then
     if [ -z "$MNTNER" ]
     then
-        MNTNER=$(git log -n 1 --format=format:%B | \
+        MNTNER=$(git log ${COMMIT_SHA} -n 1 --format=format:%B | \
                      grep '^### mntner:' | \
                      cut -d':' -f2 | tr -d ' ')
         if [ -n "$MNTNER" ]
@@ -96,7 +102,7 @@ then
 
     if [ -z "$AUTH_METHOD" ]
     then
-        AUTH_METHOD=$(git log -n 1 --format=format:%B | \
+        AUTH_METHOD=$(git log ${COMMIT_SHA} -n 1 --format=format:%B | \
                           grep '^### method:' | \
                           cut -d':' -f2 | tr -d ' ')
         if [ -n "$AUTH_METHOD" ]
@@ -234,7 +240,7 @@ verify_pgp()
     echo "Verifying PGP signature"
 
     # find the current commit hash
-    hash=$(git log -n 1 --format=format:%H)
+    hash=$(git log ${COMMIT_SHA} -n 1 --format=format:%H)
 
     # requires git 2.5
     git verify-commit "$hash"
@@ -321,13 +327,13 @@ verify_ssh()
         grep '^ssh-' | sed "s/^/${MNTNER} /" > "$afile"
 
     # extract the signed text from the git comment
-    text=$(git log -n 1 --format=format:%B | grep '^### text:' |
+    text=$(git log ${COMMIT_SHA} -n 1 --format=format:%B | grep '^### text:' |
                cut -d':' -f2 | tr -d ' ')
 
     # extract the SSH signature from the comment
     begin="-----BEGIN SSH SIGNATURE-----"
     end="-----END SSH SIGNATURE-----"
-    git log -n 1 --format=format:%B | \
+    git log ${COMMIT_SHA} -n 1 --format=format:%B | \
         sed "/^$begin\$/,/^$end\$/!d" > "$sfile"
 
     # and finally verify
