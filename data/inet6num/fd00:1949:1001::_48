@@ -1,0 +1,11 @@
+inet6num:           fd00:1949:1001:0000:0000:0000:0000:0000 - fd00:1949:1001:ffff:ffff:ffff:ffff:ffff
+cidr:               fd00:1949:1001::/48
+netname:            NOINK-NETWORK
+descr:              Network of NoInk
+country:            CN
+admin-c:            NOINK-DN42
+tech-c:             NOINK-DN42
+org:                ORG-NOINK
+mnt-by:             NOINK-MNT
+status:             ASSIGNED
+source:             DN42

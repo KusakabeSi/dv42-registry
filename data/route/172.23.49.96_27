@@ -1,0 +1,4 @@
+route:              172.23.49.96/27
+origin:             AS4242421661
+mnt-by:             NOINK-MNT
+source:             DN42

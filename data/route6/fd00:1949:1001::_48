@@ -1,0 +1,5 @@
+route6:             fd00:1949:1001::/48
+origin:             AS4242421661
+max-length:         48
+mnt-by:             NOINK-MNT
+source:             DN42

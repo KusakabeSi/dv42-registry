@@ -1,0 +1,9 @@
+inetnum:            172.23.49.96 - 172.23.49.127
+cidr:               172.23.49.96/27
+netname:            NoInk Network
+org:                ORG-NOINK
+admin-c:            NOINK-DN42
+tech-c:             NOINK-DN42
+mnt-by:             NOINK-MNT
+status:             ASSIGNED
+source:             DN42

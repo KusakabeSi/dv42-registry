@@ -1,0 +1,7 @@
+mntner:             NOINK-MNT
+descr:              NOINK
+admin-c:            NOINK-DN42
+tech-c:             NOINK-DN42
+mnt-by:             NOINK-MNT
+auth:               pgp-fingerprint 01375042F297C897675075A8C9F9FF7463267B96
+source:             DN42
