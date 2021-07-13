@@ -1,0 +1,6 @@
+route:              fdff:ffff:ffff::/48
+descr:              ARIEL-DN42-ANYCAST
+origin:             AS4242424242
+mnt-by:             ARIELS-MNT
+source:             DN42
+

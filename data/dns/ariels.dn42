@@ -1,0 +1,6 @@
+domain:             ariels.dn42
+admin-c:            ARIELS-DN42
+tech-c:             ARIELS-DN42
+mnt-by:             ARIELS-MNT
+nserver:            ns1.ariels.dn42 172.23.140.53
+source:             DN42

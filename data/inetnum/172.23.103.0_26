@@ -1,0 +1,10 @@
+inetnum:            172.23.103.0 - 172.23.103.63
+netname:            ARIEL-NETWORK-DN42-IPV4
+descr:              ARIEL NETWORK DN42 IPV4 BLOCK Ⅰ
+nserver:            ns1.ariels.dn42
+nserver:            ns2.ariels.dn42
+admin-c:            ARIELS-DN42
+tech-c:             ARIELS-DN42
+mnt-by:             ARIELS-MNT
+cidr:               172.23.103.0/26
+source:             DN42

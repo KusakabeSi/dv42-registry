@@ -1,0 +1,11 @@
+inet6num:           fdff:ffff:ffff:0000:0000:0000:0000:0000 - fdff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+netname:            ARIEL-NETWORK-DN42-IPV6
+descr:              ARIEL NETWORK DN42 IPV4 BLOCK Ⅰ
+country:            CN
+nserver:            ns1.ariels.dn42
+nserver:            ns2.ariels.dn42
+admin-c:            ARIELS-DN42
+tech-c:             ARIELS-DN42
+mnt-by:             ARIELS-MNT
+cidr:               fdff:ffff:ffff::/48
+source:             DN42
